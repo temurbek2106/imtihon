@@ -174,7 +174,7 @@ body .wrapper .stories .spaces {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0px 30px;
+  padding: 0 30px;
   max-width: 610px;
   width: 100%;
   height: 600px;
