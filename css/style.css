@@ -164,7 +164,7 @@ body .wrapper .stories {
 body .wrapper .stories .iconka1 {
   max-width: 830px;
   width: 100%;
-  height: 600px;
+  height: 600;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
