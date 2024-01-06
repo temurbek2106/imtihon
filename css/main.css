@@ -1,0 +1,4494 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+body .wrapper {
+  margin-top: 30px;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1500px;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+body .wrapper .wrapper_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1110px;
+  width: 90%;
+  height: 72px;
+  background-color: white;
+}
+body .wrapper .wrapper_content .there {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 269px;
+  width: 100%;
+  height: 16px;
+}
+body .wrapper .wrapper_content .there ul {
+  display: inline-flex;
+  padding-right: 2px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 37px;
+  background: white;
+  list-style: none;
+  color: #000;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body .wrapper .wrapper_content .there ul a {
+  text-decoration: none;
+}
+body .wrapper .wrapper_content .there ul a:hover {
+  transition-duration: 1s;
+  color: #DFDFDF;
+}
+body .wrapper .wrapper_content .share {
+  display: none;
+}
+body .wrapper .wrapper_content button {
+  border: none;
+  width: 158px;
+  height: 40px;
+  flex-shrink: 0;
+  background: #000;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body .wrapper .wrapper_content button:hover {
+  transition-duration: 1s;
+  color: black;
+  background: #DFDFDF;
+}
+body .wrapper .dalete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1500px;
+  width: 100%;
+  height: 650px;
+  background-color: blue;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url(/img/full.png);
+}
+body .wrapper .dalete .com {
+  max-width: 1200px;
+  width: 100%;
+  height: 406px;
+  padding: 0px 30px;
+}
+body .wrapper .dalete .com .text {
+  max-width: 387px;
+  width: 100%;
+  height: 406px;
+}
+body .wrapper .dalete .com .text .debug {
+  margin: 0px;
+  max-width: 250px;
+  width: 100%;
+  height: 16px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body .wrapper .dalete .com .text .file {
+  margin: 0px;
+  margin-top: 24px;
+  max-width: 350px;
+  width: 100%;
+  height: 144px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 120% */
+  letter-spacing: 4.167px;
+  text-transform: uppercase;
+}
+body .wrapper .dalete .com .text .edit {
+  margin: 0px;
+  margin-top: 16px;
+  display: inline-flex;
+  padding-right: 1px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 9px;
+  max-width: 226px;
+  width: 100%;
+  height: 17px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .wrapper .dalete .com .text .selection {
+  margin: 0px;
+  margin-top: 24px;
+  max-width: 387px;
+  width: 100%;
+  height: 125px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+}
+body .wrapper .dalete .com .text a {
+  margin: 0px;
+  margin-top: 24px;
+  max-width: 184px;
+  width: 100%;
+  height: 16px;
+  color: #FFF;
+  text-align: right;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  list-style: none;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  gap: 18px;
+}
+body .wrapper .dalete .com .text a:hover {
+  width: 175px;
+  transition-duration: 1s;
+  border-bottom: 2px solid white;
+  color: white;
+  display: flex;
+  gap: 18px;
+}
+body .wrapper .text2 {
+  display: none;
+  justify-content: center;
+  max-width: 1500px;
+  height: 650px;
+  width: 100%;
+  background-color: white;
+}
+body .wrapper .text2 .text1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 30px;
+  max-width: 610px;
+  width: 100%;
+  height: 650px;
+  background-color: black;
+}
+body .wrapper .text2 .text1 .create {
+  width: 387px;
+  height: 304px;
+  background-color: black;
+}
+body .wrapper .text2 .text1 .create .run {
+  margin: 0;
+  max-width: 387px;
+  width: 100%;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 120% */
+  letter-spacing: 4.167px;
+  text-transform: uppercase;
+}
+body .wrapper .text2 .text1 .create .run1 {
+  margin-top: 21px;
+  max-width: 387px;
+  width: 100%;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+}
+body .wrapper .text2 .text1 .create a {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  margin-top: 48px;
+}
+body .wrapper .text2 .text1 .create a:hover {
+  width: 175px;
+  transition-duration: 1s;
+  border-bottom: 2px solid white;
+  color: white;
+  display: flex;
+  gap: 18px;
+}
+body .wrapper .text2 .iconka {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  max-width: 830px;
+  width: 100%;
+  height: 650px;
+  background-image: url(/img/bolakay.png);
+}
+body .wrapper .card {
+  max-width: 1500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+body .wrapper .card .emmet10 {
+  display: flex;
+  max-width: 1500px;
+  width: 100%;
+  height: max-content;
+}
+body .wrapper .card .emmet10 .emmet1 {
+  display: flex;
+  max-width: 1500px;
+  width: 100%;
+  height: 500px;
+}
+body .wrapper .card .emmet10 .emmet1 .stop1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  max-width: 375px;
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/img/tog.png);
+}
+body .wrapper .card .emmet10 .emmet1 .stop1 .exploler {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 280px;
+  width: 90%;
+  height: 150px;
+}
+body .wrapper .card .emmet10 .emmet1 .stop1 .exploler .aktivatsiya .april {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 280px;
+  width: 100%;
+  height: 17px;
+}
+body .wrapper .card .emmet10 .emmet1 .stop1 .exploler .aktivatsiya .control {
+  margin: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+}
+body .wrapper .card .emmet10 .emmet1 .stop1 .exploler .aktivatsiya .john {
+  margin: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .wrapper .card .emmet10 .emmet1 .stop1 .exploler .read {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid white;
+  max-width: 280px;
+  width: 100%;
+  height: 16px;
+}
+body .wrapper .card .emmet10 .emmet1 .stop1 .exploler .read .story {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body .wrapper .card .emmet10 .emmet1 .stop1:hover {
+  transition-duration: 2s;
+  transform: translateY(-30px);
+}
+body .wrapper .card .emmet10 .emmet1 .stop2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  max-width: 375px;
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/img/sunset.png);
+}
+body .wrapper .card .emmet10 .emmet1 .stop2 .exploler {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 280px;
+  width: 90%;
+  height: 150px;
+}
+body .wrapper .card .emmet10 .emmet1 .stop2 .exploler .aktivatsiya .april {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 280px;
+  width: 100%;
+  height: 17px;
+}
+body .wrapper .card .emmet10 .emmet1 .stop2 .exploler .aktivatsiya .control {
+  margin: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+}
+body .wrapper .card .emmet10 .emmet1 .stop2 .exploler .aktivatsiya .john {
+  margin: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .wrapper .card .emmet10 .emmet1 .stop2 .exploler .read {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid white;
+  max-width: 280px;
+  width: 100%;
+  height: 16px;
+}
+body .wrapper .card .emmet10 .emmet1 .stop2 .exploler .read .story {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body .wrapper .card .emmet10 .emmet1 .stop2:hover {
+  transition-duration: 2s;
+  transform: translateY(-30px);
+}
+body .wrapper .card .emmet10 .emmet2 {
+  display: flex;
+  max-width: 1500px;
+  width: 100%;
+  height: 500px;
+}
+body .wrapper .card .emmet10 .emmet2 .stop3 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  max-width: 375px;
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/img/voyage.png);
+}
+body .wrapper .card .emmet10 .emmet2 .stop3 .exploler {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 280px;
+  width: 90%;
+  height: 150px;
+}
+body .wrapper .card .emmet10 .emmet2 .stop3 .exploler .aktivatsiya .april {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 280px;
+  width: 100%;
+  height: 17px;
+}
+body .wrapper .card .emmet10 .emmet2 .stop3 .exploler .aktivatsiya .control {
+  margin: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+}
+body .wrapper .card .emmet10 .emmet2 .stop3 .exploler .aktivatsiya .john {
+  margin: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .wrapper .card .emmet10 .emmet2 .stop3 .exploler .read {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid white;
+  max-width: 280px;
+  width: 100%;
+  height: 16px;
+}
+body .wrapper .card .emmet10 .emmet2 .stop3 .exploler .read .story {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body .wrapper .card .emmet10 .emmet2 .stop3:hover {
+  transition-duration: 2s;
+  transform: translateY(-30px);
+}
+body .wrapper .card .emmet10 .emmet2 .stop4 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  max-width: 375px;
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/img/brooke.png);
+}
+body .wrapper .card .emmet10 .emmet2 .stop4 .exploler {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 280px;
+  width: 90%;
+  height: 150px;
+}
+body .wrapper .card .emmet10 .emmet2 .stop4 .exploler .aktivatsiya .april {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 280px;
+  width: 100%;
+  height: 17px;
+}
+body .wrapper .card .emmet10 .emmet2 .stop4 .exploler .aktivatsiya .control {
+  margin: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+}
+body .wrapper .card .emmet10 .emmet2 .stop4 .exploler .aktivatsiya .john {
+  margin: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .wrapper .card .emmet10 .emmet2 .stop4 .exploler .read {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid white;
+  max-width: 280px;
+  width: 100%;
+  height: 16px;
+}
+body .wrapper .card .emmet10 .emmet2 .stop4 .exploler .read .story {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body .wrapper .card .emmet10 .emmet2 .stop4:hover {
+  transition-duration: 2s;
+  transform: translateY(-30px);
+}
+body .wrapper .card .emmet20 {
+  display: flex;
+  max-width: 1500px;
+  width: 100%;
+  height: max-content;
+}
+body .wrapper .card .emmet20 .emmet1 {
+  display: flex;
+  max-width: 1500px;
+  width: 100%;
+  height: 500px;
+}
+body .wrapper .card .emmet20 .emmet1 .stop1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  max-width: 375px;
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/img/world.png);
+}
+body .wrapper .card .emmet20 .emmet1 .stop1 .exploler {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 280px;
+  width: 90%;
+  height: 150px;
+}
+body .wrapper .card .emmet20 .emmet1 .stop1 .exploler .aktivatsiya .april {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 280px;
+  width: 100%;
+  height: 17px;
+}
+body .wrapper .card .emmet20 .emmet1 .stop1 .exploler .aktivatsiya .control {
+  margin: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+}
+body .wrapper .card .emmet20 .emmet1 .stop1 .exploler .aktivatsiya .john {
+  margin: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .wrapper .card .emmet20 .emmet1 .stop1 .exploler .read {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid white;
+  max-width: 280px;
+  width: 100%;
+  height: 16px;
+}
+body .wrapper .card .emmet20 .emmet1 .stop1 .exploler .read .story {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body .wrapper .card .emmet20 .emmet1 .stop1:hover {
+  transition-duration: 2s;
+  transform: translateY(-30px);
+}
+body .wrapper .card .emmet20 .emmet1 .stop2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  max-width: 375px;
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/img/corners.png);
+}
+body .wrapper .card .emmet20 .emmet1 .stop2 .exploler {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 280px;
+  width: 90%;
+  height: 150px;
+}
+body .wrapper .card .emmet20 .emmet1 .stop2 .exploler .aktivatsiya .april {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 280px;
+  width: 100%;
+  height: 17px;
+}
+body .wrapper .card .emmet20 .emmet1 .stop2 .exploler .aktivatsiya .control {
+  margin: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+}
+body .wrapper .card .emmet20 .emmet1 .stop2 .exploler .aktivatsiya .john {
+  margin: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .wrapper .card .emmet20 .emmet1 .stop2 .exploler .read {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid white;
+  max-width: 280px;
+  width: 100%;
+  height: 16px;
+}
+body .wrapper .card .emmet20 .emmet1 .stop2 .exploler .read .story {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body .wrapper .card .emmet20 .emmet1 .stop2:hover {
+  transition-duration: 2s;
+  transform: translateY(-30px);
+}
+body .wrapper .card .emmet20 .emmet2 {
+  display: flex;
+  max-width: 1500px;
+  width: 100%;
+  height: 500px;
+}
+body .wrapper .card .emmet20 .emmet2 .stop3 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  max-width: 375px;
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/img/king.png);
+}
+body .wrapper .card .emmet20 .emmet2 .stop3 .exploler {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 280px;
+  width: 90%;
+  height: 150px;
+}
+body .wrapper .card .emmet20 .emmet2 .stop3 .exploler .aktivatsiya .april {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 280px;
+  width: 100%;
+  height: 17px;
+}
+body .wrapper .card .emmet20 .emmet2 .stop3 .exploler .aktivatsiya .control {
+  margin: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+}
+body .wrapper .card .emmet20 .emmet2 .stop3 .exploler .aktivatsiya .john {
+  margin: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .wrapper .card .emmet20 .emmet2 .stop3 .exploler .read {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid white;
+  max-width: 280px;
+  width: 100%;
+  height: 16px;
+}
+body .wrapper .card .emmet20 .emmet2 .stop3 .exploler .read .story {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body .wrapper .card .emmet20 .emmet2 .stop3:hover {
+  transition-duration: 2s;
+  transform: translateY(-30px);
+}
+body .wrapper .card .emmet20 .emmet2 .stop4 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  max-width: 375px;
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/img/trip.png);
+}
+body .wrapper .card .emmet20 .emmet2 .stop4 .exploler {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 280px;
+  width: 90%;
+  height: 150px;
+}
+body .wrapper .card .emmet20 .emmet2 .stop4 .exploler .aktivatsiya .april {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 280px;
+  width: 100%;
+  height: 17px;
+}
+body .wrapper .card .emmet20 .emmet2 .stop4 .exploler .aktivatsiya .control {
+  margin: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+}
+body .wrapper .card .emmet20 .emmet2 .stop4 .exploler .aktivatsiya .john {
+  margin: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .wrapper .card .emmet20 .emmet2 .stop4 .exploler .read {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid white;
+  max-width: 280px;
+  width: 100%;
+  height: 16px;
+}
+body .wrapper .card .emmet20 .emmet2 .stop4 .exploler .read .story {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body .wrapper .card .emmet20 .emmet2 .stop4:hover {
+  transition-duration: 2s;
+  transform: translateY(-30px);
+}
+body .wrapper .card .emmet30 {
+  display: flex;
+  max-width: 1500px;
+  width: 100%;
+  height: max-content;
+}
+body .wrapper .card .emmet30 .emmet1 {
+  display: flex;
+  max-width: 1500px;
+  width: 100%;
+  height: 500px;
+}
+body .wrapper .card .emmet30 .emmet1 .stop1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  max-width: 375px;
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/img/rage.png);
+}
+body .wrapper .card .emmet30 .emmet1 .stop1 .exploler {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 280px;
+  width: 90%;
+  height: 150px;
+}
+body .wrapper .card .emmet30 .emmet1 .stop1 .exploler .aktivatsiya .april {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 280px;
+  width: 100%;
+  height: 17px;
+}
+body .wrapper .card .emmet30 .emmet1 .stop1 .exploler .aktivatsiya .control {
+  margin: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+}
+body .wrapper .card .emmet30 .emmet1 .stop1 .exploler .aktivatsiya .john {
+  margin: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .wrapper .card .emmet30 .emmet1 .stop1 .exploler .read {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid white;
+  max-width: 280px;
+  width: 100%;
+  height: 16px;
+}
+body .wrapper .card .emmet30 .emmet1 .stop1 .exploler .read .story {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body .wrapper .card .emmet30 .emmet1 .stop1:hover {
+  transition-duration: 2s;
+  transform: translateY(-30px);
+}
+body .wrapper .card .emmet30 .emmet1 .stop2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  max-width: 375px;
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/img/running.png);
+}
+body .wrapper .card .emmet30 .emmet1 .stop2 .exploler {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 280px;
+  width: 90%;
+  height: 150px;
+}
+body .wrapper .card .emmet30 .emmet1 .stop2 .exploler .aktivatsiya .april {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 280px;
+  width: 100%;
+  height: 17px;
+}
+body .wrapper .card .emmet30 .emmet1 .stop2 .exploler .aktivatsiya .control {
+  margin: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+}
+body .wrapper .card .emmet30 .emmet1 .stop2 .exploler .aktivatsiya .john {
+  margin: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .wrapper .card .emmet30 .emmet1 .stop2 .exploler .read {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid white;
+  max-width: 280px;
+  width: 100%;
+  height: 16px;
+}
+body .wrapper .card .emmet30 .emmet1 .stop2 .exploler .read .story {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body .wrapper .card .emmet30 .emmet1 .stop2:hover {
+  transition-duration: 2s;
+  transform: translateY(-30px);
+}
+body .wrapper .card .emmet30 .emmet2 {
+  display: flex;
+  max-width: 1500px;
+  width: 100%;
+  height: 500px;
+}
+body .wrapper .card .emmet30 .emmet2 .stop3 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  max-width: 375px;
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/img/behind.png);
+}
+body .wrapper .card .emmet30 .emmet2 .stop3 .exploler {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 280px;
+  width: 90%;
+  height: 150px;
+}
+body .wrapper .card .emmet30 .emmet2 .stop3 .exploler .aktivatsiya .april {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 280px;
+  width: 100%;
+  height: 17px;
+}
+body .wrapper .card .emmet30 .emmet2 .stop3 .exploler .aktivatsiya .control {
+  margin: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+}
+body .wrapper .card .emmet30 .emmet2 .stop3 .exploler .aktivatsiya .john {
+  margin: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .wrapper .card .emmet30 .emmet2 .stop3 .exploler .read {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid white;
+  max-width: 280px;
+  width: 100%;
+  height: 16px;
+}
+body .wrapper .card .emmet30 .emmet2 .stop3 .exploler .read .story {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body .wrapper .card .emmet30 .emmet2 .stop3:hover {
+  transition-duration: 2s;
+  transform: translateY(-30px);
+}
+body .wrapper .card .emmet30 .emmet2 .stop4 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  max-width: 375px;
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/img/calm.png);
+}
+body .wrapper .card .emmet30 .emmet2 .stop4 .exploler {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 280px;
+  width: 90%;
+  height: 150px;
+}
+body .wrapper .card .emmet30 .emmet2 .stop4 .exploler .aktivatsiya .april {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 280px;
+  width: 100%;
+  height: 17px;
+}
+body .wrapper .card .emmet30 .emmet2 .stop4 .exploler .aktivatsiya .control {
+  margin: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+}
+body .wrapper .card .emmet30 .emmet2 .stop4 .exploler .aktivatsiya .john {
+  margin: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .wrapper .card .emmet30 .emmet2 .stop4 .exploler .read {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid white;
+  max-width: 280px;
+  width: 100%;
+  height: 16px;
+}
+body .wrapper .card .emmet30 .emmet2 .stop4 .exploler .read .story {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body .wrapper .card .emmet30 .emmet2 .stop4:hover {
+  transition-duration: 2s;
+  transform: translateY(-30px);
+}
+body .wrapper .card .emmet40 {
+  display: flex;
+  max-width: 1500px;
+  width: 100%;
+  height: max-content;
+}
+body .wrapper .card .emmet40 .emmet1 {
+  display: flex;
+  max-width: 1500px;
+  width: 100%;
+  height: 500px;
+}
+body .wrapper .card .emmet40 .emmet1 .stop1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  max-width: 375px;
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/img/milky.png);
+}
+body .wrapper .card .emmet40 .emmet1 .stop1 .exploler {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 280px;
+  width: 90%;
+  height: 150px;
+}
+body .wrapper .card .emmet40 .emmet1 .stop1 .exploler .aktivatsiya .april {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 280px;
+  width: 100%;
+  height: 17px;
+}
+body .wrapper .card .emmet40 .emmet1 .stop1 .exploler .aktivatsiya .control {
+  margin: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+}
+body .wrapper .card .emmet40 .emmet1 .stop1 .exploler .aktivatsiya .john {
+  margin: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .wrapper .card .emmet40 .emmet1 .stop1 .exploler .read {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid white;
+  max-width: 280px;
+  width: 100%;
+  height: 16px;
+}
+body .wrapper .card .emmet40 .emmet1 .stop1 .exploler .read .story {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body .wrapper .card .emmet40 .emmet1 .stop1:hover {
+  transition-duration: 2s;
+  transform: translateY(-30px);
+}
+body .wrapper .card .emmet40 .emmet1 .stop2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  max-width: 375px;
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/img/nigth.png);
+}
+body .wrapper .card .emmet40 .emmet1 .stop2 .exploler {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 280px;
+  width: 90%;
+  height: 150px;
+}
+body .wrapper .card .emmet40 .emmet1 .stop2 .exploler .aktivatsiya .april {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 280px;
+  width: 100%;
+  height: 17px;
+}
+body .wrapper .card .emmet40 .emmet1 .stop2 .exploler .aktivatsiya .control {
+  margin: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+}
+body .wrapper .card .emmet40 .emmet1 .stop2 .exploler .aktivatsiya .john {
+  margin: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .wrapper .card .emmet40 .emmet1 .stop2 .exploler .read {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid white;
+  max-width: 280px;
+  width: 100%;
+  height: 16px;
+}
+body .wrapper .card .emmet40 .emmet1 .stop2 .exploler .read .story {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body .wrapper .card .emmet40 .emmet1 .stop2:hover {
+  transition-duration: 2s;
+  transform: translateY(-30px);
+}
+body .wrapper .card .emmet40 .emmet2 {
+  display: flex;
+  max-width: 1500px;
+  width: 100%;
+  height: 500px;
+}
+body .wrapper .card .emmet40 .emmet2 .stop3 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  max-width: 375px;
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/img/beauty.png);
+}
+body .wrapper .card .emmet40 .emmet2 .stop3 .exploler {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 280px;
+  width: 90%;
+  height: 150px;
+}
+body .wrapper .card .emmet40 .emmet2 .stop3 .exploler .aktivatsiya .april {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 280px;
+  width: 100%;
+  height: 17px;
+}
+body .wrapper .card .emmet40 .emmet2 .stop3 .exploler .aktivatsiya .control {
+  margin: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+}
+body .wrapper .card .emmet40 .emmet2 .stop3 .exploler .aktivatsiya .john {
+  margin: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .wrapper .card .emmet40 .emmet2 .stop3 .exploler .read {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid white;
+  max-width: 280px;
+  width: 100%;
+  height: 16px;
+}
+body .wrapper .card .emmet40 .emmet2 .stop3 .exploler .read .story {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body .wrapper .card .emmet40 .emmet2 .stop3:hover {
+  transition-duration: 2s;
+  transform: translateY(-30px);
+}
+body .wrapper .card .emmet40 .emmet2 .stop4 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  max-width: 375px;
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/img/land.png);
+}
+body .wrapper .card .emmet40 .emmet2 .stop4 .exploler {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 280px;
+  width: 90%;
+  height: 150px;
+}
+body .wrapper .card .emmet40 .emmet2 .stop4 .exploler .aktivatsiya .april {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 280px;
+  width: 100%;
+  height: 17px;
+}
+body .wrapper .card .emmet40 .emmet2 .stop4 .exploler .aktivatsiya .control {
+  margin: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+}
+body .wrapper .card .emmet40 .emmet2 .stop4 .exploler .aktivatsiya .john {
+  margin: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .wrapper .card .emmet40 .emmet2 .stop4 .exploler .read {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid white;
+  max-width: 280px;
+  width: 100%;
+  height: 16px;
+}
+body .wrapper .card .emmet40 .emmet2 .stop4 .exploler .read .story {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body .wrapper .card .emmet40 .emmet2 .stop4:hover {
+  transition-duration: 2s;
+  transform: translateY(-30px);
+}
+body .wrapper .footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1500px;
+  width: 100%;
+  height: 250px;
+  background: black;
+}
+body .wrapper .footer .back {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1110px;
+  width: 100%;
+}
+body .wrapper .footer .back .icon {
+  height: 122px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body .wrapper .footer .back .icon img {
+  width: 170px;
+  height: 16px;
+}
+body .wrapper .footer .back .icon ul {
+  display: none;
+}
+body .wrapper .footer .back .icon .icons {
+  width: 154px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+body .wrapper .footer .back .icon .icons .facebook svg path {
+  fill: #FFF;
+}
+body .wrapper .footer .back .icon .icons .facebook svg path:hover {
+  transition: 0.5s;
+  fill: #6028F1;
+}
+body .wrapper .footer .back .icon .icons .youtube svg path {
+  fill: #FFF;
+}
+body .wrapper .footer .back .icon .icons .youtube svg path:hover {
+  transition: 0.5s;
+  fill: #FF5A5A;
+}
+body .wrapper .footer .back .icon .icons .twitter svg path {
+  fill: #FFF;
+}
+body .wrapper .footer .back .icon .icons .twitter svg path:hover {
+  transition: 0.5s;
+  fill: #27718A;
+}
+body .wrapper .footer .back .icon .icons .p svg path {
+  fill: #FFF;
+}
+body .wrapper .footer .back .icon .icons .p svg path:hover {
+  transition: 0.5s;
+  fill: #DE3838;
+}
+body .wrapper .footer .back .icon .icons .insta svg path {
+  fill: #FFF;
+}
+body .wrapper .footer .back .icon .icons .insta svg path:hover {
+  transition: 0.5s;
+  fill: #6028F1;
+}
+body .wrapper .footer .back ul {
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 122px;
+  list-style: none;
+}
+body .wrapper .footer .back a:hover {
+  transition: 0.5s;
+  color: gray;
+}
+body .wrapper .footer .back a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+body .wrapper .footer .back .featur {
+  background: #000;
+  height: 122px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body .wrapper .footer .back .featur .btn {
+  margin-top: 0px;
+  width: 163px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+body .wrapper .footer .back .featur .btn:hover {
+  border-bottom: 2px solid whitesmoke;
+  transition-duration: 0.5s;
+}
+body .wrapper .footer .back .featur .res {
+  width: 244px;
+  margin: 0px;
+  color: #FFF;
+  text-align: right;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media (max-width: 800px) {
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  body .wrapper {
+    margin-top: 30px;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1500px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+  }
+  body .wrapper .card {
+    max-width: 1500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  body .wrapper .card .emmet10 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1500px;
+    width: 100%;
+    height: max-content;
+  }
+  body .wrapper .card .emmet10 .emmet1 {
+    display: flex;
+    justify-content: center;
+    max-width: 1500px;
+    width: 100%;
+    height: max-content;
+  }
+  body .wrapper .card .emmet10 .emmet1 .stop1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 500px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/tog.png);
+  }
+  body .wrapper .card .emmet10 .emmet1 .stop1 .exploler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 280px;
+    width: 90%;
+    height: 150px;
+  }
+  body .wrapper .card .emmet10 .emmet1 .stop1 .exploler .aktivatsiya .april {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: 100%;
+    height: 17px;
+  }
+  body .wrapper .card .emmet10 .emmet1 .stop1 .exploler .aktivatsiya .control {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+  }
+  body .wrapper .card .emmet10 .emmet1 .stop1 .exploler .aktivatsiya .john {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .card .emmet10 .emmet1 .stop1 .exploler .read {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    max-width: 280px;
+    width: 100%;
+    height: 16px;
+  }
+  body .wrapper .card .emmet10 .emmet1 .stop1 .exploler .read .story {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .card .emmet10 .emmet1 .stop1:hover {
+    transition-duration: 2s;
+    transform: translateY(-30px);
+  }
+  body .wrapper .card .emmet10 .emmet1 .stop2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 500px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/sunset.png);
+  }
+  body .wrapper .card .emmet10 .emmet1 .stop2 .exploler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 280px;
+    width: 90%;
+    height: 150px;
+  }
+  body .wrapper .card .emmet10 .emmet1 .stop2 .exploler .aktivatsiya .april {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: 100%;
+    height: 17px;
+  }
+  body .wrapper .card .emmet10 .emmet1 .stop2 .exploler .aktivatsiya .control {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+  }
+  body .wrapper .card .emmet10 .emmet1 .stop2 .exploler .aktivatsiya .john {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .card .emmet10 .emmet1 .stop2 .exploler .read {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    max-width: 280px;
+    width: 100%;
+    height: 16px;
+  }
+  body .wrapper .card .emmet10 .emmet1 .stop2 .exploler .read .story {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .card .emmet10 .emmet1 .stop2:hover {
+    transition-duration: 2s;
+    transform: translateY(-30px);
+  }
+  body .wrapper .card .emmet10 .emmet2 {
+    display: flex;
+    justify-content: center;
+    max-width: 1500px;
+    width: 100%;
+    height: max-content;
+  }
+  body .wrapper .card .emmet10 .emmet2 .stop3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 500px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/voyage.png);
+  }
+  body .wrapper .card .emmet10 .emmet2 .stop3 .exploler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 280px;
+    width: 90%;
+    height: 150px;
+  }
+  body .wrapper .card .emmet10 .emmet2 .stop3 .exploler .aktivatsiya .april {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: 100%;
+    height: 17px;
+  }
+  body .wrapper .card .emmet10 .emmet2 .stop3 .exploler .aktivatsiya .control {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+  }
+  body .wrapper .card .emmet10 .emmet2 .stop3 .exploler .aktivatsiya .john {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .card .emmet10 .emmet2 .stop3 .exploler .read {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    max-width: 280px;
+    width: 100%;
+    height: 16px;
+  }
+  body .wrapper .card .emmet10 .emmet2 .stop3 .exploler .read .story {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .card .emmet10 .emmet2 .stop3:hover {
+    transition-duration: 2s;
+    transform: translateY(-30px);
+  }
+  body .wrapper .card .emmet10 .emmet2 .stop4 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 500px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/brooke.png);
+  }
+  body .wrapper .card .emmet10 .emmet2 .stop4 .exploler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 280px;
+    width: 90%;
+    height: 150px;
+  }
+  body .wrapper .card .emmet10 .emmet2 .stop4 .exploler .aktivatsiya .april {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: 100%;
+    height: 17px;
+  }
+  body .wrapper .card .emmet10 .emmet2 .stop4 .exploler .aktivatsiya .control {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+  }
+  body .wrapper .card .emmet10 .emmet2 .stop4 .exploler .aktivatsiya .john {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .card .emmet10 .emmet2 .stop4 .exploler .read {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    max-width: 280px;
+    width: 100%;
+    height: 16px;
+  }
+  body .wrapper .card .emmet10 .emmet2 .stop4 .exploler .read .story {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .card .emmet10 .emmet2 .stop4:hover {
+    transition-duration: 2s;
+    transform: translateY(-30px);
+  }
+  body .wrapper .card .emmet20 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1500px;
+    width: 100%;
+    height: max-content;
+  }
+  body .wrapper .card .emmet20 .emmet1 {
+    display: flex;
+    justify-content: center;
+    max-width: 1500px;
+    width: 100%;
+    height: max-content;
+  }
+  body .wrapper .card .emmet20 .emmet1 .stop1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 500px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/world.png);
+  }
+  body .wrapper .card .emmet20 .emmet1 .stop1 .exploler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 280px;
+    width: 90%;
+    height: 150px;
+  }
+  body .wrapper .card .emmet20 .emmet1 .stop1 .exploler .aktivatsiya .april {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: 100%;
+    height: 17px;
+  }
+  body .wrapper .card .emmet20 .emmet1 .stop1 .exploler .aktivatsiya .control {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+  }
+  body .wrapper .card .emmet20 .emmet1 .stop1 .exploler .aktivatsiya .john {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .card .emmet20 .emmet1 .stop1 .exploler .read {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    max-width: 280px;
+    width: 100%;
+    height: 16px;
+  }
+  body .wrapper .card .emmet20 .emmet1 .stop1 .exploler .read .story {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .card .emmet20 .emmet1 .stop1:hover {
+    transition-duration: 2s;
+    transform: translateY(-30px);
+  }
+  body .wrapper .card .emmet20 .emmet1 .stop2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 500px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/corners.png);
+  }
+  body .wrapper .card .emmet20 .emmet1 .stop2 .exploler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 280px;
+    width: 90%;
+    height: 150px;
+  }
+  body .wrapper .card .emmet20 .emmet1 .stop2 .exploler .aktivatsiya .april {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: 100%;
+    height: 17px;
+  }
+  body .wrapper .card .emmet20 .emmet1 .stop2 .exploler .aktivatsiya .control {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+  }
+  body .wrapper .card .emmet20 .emmet1 .stop2 .exploler .aktivatsiya .john {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .card .emmet20 .emmet1 .stop2 .exploler .read {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    max-width: 280px;
+    width: 100%;
+    height: 16px;
+  }
+  body .wrapper .card .emmet20 .emmet1 .stop2 .exploler .read .story {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .card .emmet20 .emmet1 .stop2:hover {
+    transition-duration: 2s;
+    transform: translateY(-30px);
+  }
+  body .wrapper .card .emmet20 .emmet2 {
+    display: flex;
+    justify-content: center;
+    max-width: 1500px;
+    width: 100%;
+    height: max-content;
+  }
+  body .wrapper .card .emmet20 .emmet2 .stop3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 500px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/king.png);
+  }
+  body .wrapper .card .emmet20 .emmet2 .stop3 .exploler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 280px;
+    width: 90%;
+    height: 150px;
+  }
+  body .wrapper .card .emmet20 .emmet2 .stop3 .exploler .aktivatsiya .april {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: 100%;
+    height: 17px;
+  }
+  body .wrapper .card .emmet20 .emmet2 .stop3 .exploler .aktivatsiya .control {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+  }
+  body .wrapper .card .emmet20 .emmet2 .stop3 .exploler .aktivatsiya .john {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .card .emmet20 .emmet2 .stop3 .exploler .read {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    max-width: 280px;
+    width: 100%;
+    height: 16px;
+  }
+  body .wrapper .card .emmet20 .emmet2 .stop3 .exploler .read .story {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .card .emmet20 .emmet2 .stop3:hover {
+    transition-duration: 2s;
+    transform: translateY(-30px);
+  }
+  body .wrapper .card .emmet20 .emmet2 .stop4 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 500px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/trip.png);
+  }
+  body .wrapper .card .emmet20 .emmet2 .stop4 .exploler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 280px;
+    width: 90%;
+    height: 150px;
+  }
+  body .wrapper .card .emmet20 .emmet2 .stop4 .exploler .aktivatsiya .april {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: 100%;
+    height: 17px;
+  }
+  body .wrapper .card .emmet20 .emmet2 .stop4 .exploler .aktivatsiya .control {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+  }
+  body .wrapper .card .emmet20 .emmet2 .stop4 .exploler .aktivatsiya .john {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .card .emmet20 .emmet2 .stop4 .exploler .read {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    max-width: 280px;
+    width: 100%;
+    height: 16px;
+  }
+  body .wrapper .card .emmet20 .emmet2 .stop4 .exploler .read .story {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .card .emmet20 .emmet2 .stop4:hover {
+    transition-duration: 2s;
+    transform: translateY(-30px);
+  }
+  body .wrapper .card .emmet30 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1500px;
+    width: 100%;
+    height: max-content;
+  }
+  body .wrapper .card .emmet30 .emmet1 {
+    display: flex;
+    justify-content: center;
+    max-width: 1500px;
+    width: 100%;
+    height: max-content;
+  }
+  body .wrapper .card .emmet30 .emmet1 .stop1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 500px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/rage.png);
+  }
+  body .wrapper .card .emmet30 .emmet1 .stop1 .exploler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 280px;
+    width: 90%;
+    height: 150px;
+  }
+  body .wrapper .card .emmet30 .emmet1 .stop1 .exploler .aktivatsiya .april {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: 100%;
+    height: 17px;
+  }
+  body .wrapper .card .emmet30 .emmet1 .stop1 .exploler .aktivatsiya .control {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+  }
+  body .wrapper .card .emmet30 .emmet1 .stop1 .exploler .aktivatsiya .john {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .card .emmet30 .emmet1 .stop1 .exploler .read {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    max-width: 280px;
+    width: 100%;
+    height: 16px;
+  }
+  body .wrapper .card .emmet30 .emmet1 .stop1 .exploler .read .story {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .card .emmet30 .emmet1 .stop1:hover {
+    transition-duration: 2s;
+    transform: translateY(-30px);
+  }
+  body .wrapper .card .emmet30 .emmet1 .stop2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 500px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/running.png);
+  }
+  body .wrapper .card .emmet30 .emmet1 .stop2 .exploler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 280px;
+    width: 90%;
+    height: 150px;
+  }
+  body .wrapper .card .emmet30 .emmet1 .stop2 .exploler .aktivatsiya .april {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: 100%;
+    height: 17px;
+  }
+  body .wrapper .card .emmet30 .emmet1 .stop2 .exploler .aktivatsiya .control {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+  }
+  body .wrapper .card .emmet30 .emmet1 .stop2 .exploler .aktivatsiya .john {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .card .emmet30 .emmet1 .stop2 .exploler .read {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    max-width: 280px;
+    width: 100%;
+    height: 16px;
+  }
+  body .wrapper .card .emmet30 .emmet1 .stop2 .exploler .read .story {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .card .emmet30 .emmet1 .stop2:hover {
+    transition-duration: 2s;
+    transform: translateY(-30px);
+  }
+  body .wrapper .card .emmet30 .emmet2 {
+    display: flex;
+    justify-content: center;
+    max-width: 1500px;
+    width: 100%;
+    height: max-content;
+  }
+  body .wrapper .card .emmet30 .emmet2 .stop3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 500px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/behind.png);
+  }
+  body .wrapper .card .emmet30 .emmet2 .stop3 .exploler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 280px;
+    width: 90%;
+    height: 150px;
+  }
+  body .wrapper .card .emmet30 .emmet2 .stop3 .exploler .aktivatsiya .april {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: 100%;
+    height: 17px;
+  }
+  body .wrapper .card .emmet30 .emmet2 .stop3 .exploler .aktivatsiya .control {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+  }
+  body .wrapper .card .emmet30 .emmet2 .stop3 .exploler .aktivatsiya .john {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .card .emmet30 .emmet2 .stop3 .exploler .read {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    max-width: 280px;
+    width: 100%;
+    height: 16px;
+  }
+  body .wrapper .card .emmet30 .emmet2 .stop3 .exploler .read .story {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .card .emmet30 .emmet2 .stop3:hover {
+    transition-duration: 2s;
+    transform: translateY(-30px);
+  }
+  body .wrapper .card .emmet30 .emmet2 .stop4 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 500px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/calm.png);
+  }
+  body .wrapper .card .emmet30 .emmet2 .stop4 .exploler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 280px;
+    width: 90%;
+    height: 150px;
+  }
+  body .wrapper .card .emmet30 .emmet2 .stop4 .exploler .aktivatsiya .april {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: 100%;
+    height: 17px;
+  }
+  body .wrapper .card .emmet30 .emmet2 .stop4 .exploler .aktivatsiya .control {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+  }
+  body .wrapper .card .emmet30 .emmet2 .stop4 .exploler .aktivatsiya .john {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .card .emmet30 .emmet2 .stop4 .exploler .read {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    max-width: 280px;
+    width: 100%;
+    height: 16px;
+  }
+  body .wrapper .card .emmet30 .emmet2 .stop4 .exploler .read .story {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .card .emmet30 .emmet2 .stop4:hover {
+    transition-duration: 2s;
+    transform: translateY(-30px);
+  }
+  body .wrapper .card .emmet40 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1500px;
+    width: 100%;
+    height: max-content;
+  }
+  body .wrapper .card .emmet40 .emmet1 {
+    display: flex;
+    justify-content: center;
+    max-width: 1500px;
+    width: 100%;
+    height: max-content;
+  }
+  body .wrapper .card .emmet40 .emmet1 .stop1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 500px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/milky.png);
+  }
+  body .wrapper .card .emmet40 .emmet1 .stop1 .exploler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 280px;
+    width: 90%;
+    height: 150px;
+  }
+  body .wrapper .card .emmet40 .emmet1 .stop1 .exploler .aktivatsiya .april {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: 100%;
+    height: 17px;
+  }
+  body .wrapper .card .emmet40 .emmet1 .stop1 .exploler .aktivatsiya .control {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+  }
+  body .wrapper .card .emmet40 .emmet1 .stop1 .exploler .aktivatsiya .john {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .card .emmet40 .emmet1 .stop1 .exploler .read {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    max-width: 280px;
+    width: 100%;
+    height: 16px;
+  }
+  body .wrapper .card .emmet40 .emmet1 .stop1 .exploler .read .story {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .card .emmet40 .emmet1 .stop1:hover {
+    transition-duration: 2s;
+    transform: translateY(-30px);
+  }
+  body .wrapper .card .emmet40 .emmet1 .stop2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 500px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/nigth.png);
+  }
+  body .wrapper .card .emmet40 .emmet1 .stop2 .exploler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 280px;
+    width: 90%;
+    height: 150px;
+  }
+  body .wrapper .card .emmet40 .emmet1 .stop2 .exploler .aktivatsiya .april {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: 100%;
+    height: 17px;
+  }
+  body .wrapper .card .emmet40 .emmet1 .stop2 .exploler .aktivatsiya .control {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+  }
+  body .wrapper .card .emmet40 .emmet1 .stop2 .exploler .aktivatsiya .john {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .card .emmet40 .emmet1 .stop2 .exploler .read {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    max-width: 280px;
+    width: 100%;
+    height: 16px;
+  }
+  body .wrapper .card .emmet40 .emmet1 .stop2 .exploler .read .story {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .card .emmet40 .emmet1 .stop2:hover {
+    transition-duration: 2s;
+    transform: translateY(-30px);
+  }
+  body .wrapper .card .emmet40 .emmet2 {
+    display: flex;
+    justify-content: center;
+    max-width: 1500px;
+    width: 100%;
+    height: max-content;
+  }
+  body .wrapper .card .emmet40 .emmet2 .stop3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 500px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/beauty.png);
+  }
+  body .wrapper .card .emmet40 .emmet2 .stop3 .exploler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 280px;
+    width: 90%;
+    height: 150px;
+  }
+  body .wrapper .card .emmet40 .emmet2 .stop3 .exploler .aktivatsiya .april {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: 100%;
+    height: 17px;
+  }
+  body .wrapper .card .emmet40 .emmet2 .stop3 .exploler .aktivatsiya .control {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+  }
+  body .wrapper .card .emmet40 .emmet2 .stop3 .exploler .aktivatsiya .john {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .card .emmet40 .emmet2 .stop3 .exploler .read {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    max-width: 280px;
+    width: 100%;
+    height: 16px;
+  }
+  body .wrapper .card .emmet40 .emmet2 .stop3 .exploler .read .story {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .card .emmet40 .emmet2 .stop3:hover {
+    transition-duration: 2s;
+    transform: translateY(-30px);
+  }
+  body .wrapper .card .emmet40 .emmet2 .stop4 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 500px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/land.png);
+  }
+  body .wrapper .card .emmet40 .emmet2 .stop4 .exploler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 280px;
+    width: 90%;
+    height: 150px;
+  }
+  body .wrapper .card .emmet40 .emmet2 .stop4 .exploler .aktivatsiya .april {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: 100%;
+    height: 17px;
+  }
+  body .wrapper .card .emmet40 .emmet2 .stop4 .exploler .aktivatsiya .control {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+  }
+  body .wrapper .card .emmet40 .emmet2 .stop4 .exploler .aktivatsiya .john {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .card .emmet40 .emmet2 .stop4 .exploler .read {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    max-width: 280px;
+    width: 100%;
+    height: 16px;
+  }
+  body .wrapper .card .emmet40 .emmet2 .stop4 .exploler .read .story {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .card .emmet40 .emmet2 .stop4:hover {
+    transition-duration: 2s;
+    transform: translateY(-30px);
+  }
+  body .wrapper .footer {
+    display: flex;
+    max-width: 1500px;
+    width: 100%;
+    height: 250px;
+    background: black;
+  }
+  body .wrapper .footer .back {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1110px;
+    width: 90%;
+  }
+  body .wrapper .footer .back .icon {
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  body .wrapper .footer .back .icon img {
+    width: 170px;
+    height: 16px;
+  }
+  body .wrapper .footer .back .icon ul {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    margin-left: -40px;
+    flex-direction: row;
+    margin-top: -30px;
+    flex-wrap: wrap;
+    height: max-content;
+    list-style: none;
+    gap: 20px;
+  }
+  body .wrapper .footer .back .icon .icons {
+    width: 154px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  body .wrapper .footer .back .icon .icons .facebook svg path {
+    fill: #FFF;
+  }
+  body .wrapper .footer .back .icon .icons .facebook svg path:hover {
+    transition: 0.5s;
+    fill: #6028F1;
+  }
+  body .wrapper .footer .back .icon .icons .youtube svg path {
+    fill: #FFF;
+  }
+  body .wrapper .footer .back .icon .icons .youtube svg path:hover {
+    transition: 0.5s;
+    fill: #FF5A5A;
+  }
+  body .wrapper .footer .back .icon .icons .twitter svg path {
+    fill: #FFF;
+  }
+  body .wrapper .footer .back .icon .icons .twitter svg path:hover {
+    transition: 0.5s;
+    fill: #27718A;
+  }
+  body .wrapper .footer .back .icon .icons .p svg path {
+    fill: #FFF;
+  }
+  body .wrapper .footer .back .icon .icons .p svg path:hover {
+    transition: 0.5s;
+    fill: #DE3838;
+  }
+  body .wrapper .footer .back .icon .icons .insta svg path {
+    fill: #FFF;
+  }
+  body .wrapper .footer .back .icon .icons .insta svg path:hover {
+    transition: 0.5s;
+    fill: #6028F1;
+  }
+  body .wrapper .footer .back ul {
+    max-width: 500px;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 122px;
+    list-style: none;
+  }
+  body .wrapper .footer .back a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  body .wrapper .footer .back .featur {
+    background: #000;
+    height: 122px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  body .wrapper .footer .back .featur .btn {
+    margin-top: 0px;
+    width: 163px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  body .wrapper .footer .back .featur .btn:hover {
+    border-bottom: 2px solid whitesmoke;
+    transition-duration: 0.5s;
+  }
+  body .wrapper .footer .back .featur .res {
+    margin: 0px;
+    color: #FFF;
+    text-align: right;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+@media (max-width: 650px) {
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  body .wrapper {
+    margin-top: 30px;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1500px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+  }
+  body .wrapper .wrapper_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1110px;
+    width: 90%;
+    height: 72px;
+    background-color: white;
+  }
+  body .wrapper .wrapper_content .there ul {
+    display: none;
+    padding-right: 2px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 37px;
+    background: white;
+    list-style: none;
+    color: #000;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .wrapper_content .there ul a {
+    display: none;
+    text-decoration: none;
+  }
+  body .wrapper .wrapper_content .there ul a:hover {
+    transition-duration: 1s;
+    color: #DFDFDF;
+  }
+  body .wrapper .wrapper_content .share {
+    display: inline;
+  }
+  body .wrapper .wrapper_content button {
+    display: none;
+    border: none;
+    width: 158px;
+    height: 40px;
+    flex-shrink: 0;
+    background: #000;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .wrapper_content button:hover {
+    transition-duration: 1s;
+    color: black;
+    background: #DFDFDF;
+  }
+}
+@media (max-width: 545px) {
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  body .wrapper {
+    margin-top: 30px;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1500px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+  }
+  body .wrapper .footer {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 64px;
+    width: 100%;
+    height: max-content;
+  }
+  body .wrapper .footer .back {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1110px;
+    width: 100%;
+  }
+  body .wrapper .footer .back .icon {
+    height: 122px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  body .wrapper .footer .back .icon img {
+    width: 170px;
+    height: 16px;
+  }
+  body .wrapper .footer .back .icon ul {
+    display: none;
+  }
+  body .wrapper .footer .back .icon .icons {
+    text-align: center;
+    width: 154px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  body .wrapper .footer .back .icon .icons .facebook svg path {
+    fill: #FFF;
+  }
+  body .wrapper .footer .back .icon .icons .facebook svg path:hover {
+    transition: 0.5s;
+    fill: #6028F1;
+  }
+  body .wrapper .footer .back .icon .icons .youtube svg path {
+    fill: #FFF;
+  }
+  body .wrapper .footer .back .icon .icons .youtube svg path:hover {
+    transition: 0.5s;
+    fill: #FF5A5A;
+  }
+  body .wrapper .footer .back .icon .icons .twitter svg path {
+    fill: #FFF;
+  }
+  body .wrapper .footer .back .icon .icons .twitter svg path:hover {
+    transition: 0.5s;
+    fill: #27718A;
+  }
+  body .wrapper .footer .back .icon .icons .p svg path {
+    fill: #FFF;
+  }
+  body .wrapper .footer .back .icon .icons .p svg path:hover {
+    transition: 0.5s;
+    fill: #DE3838;
+  }
+  body .wrapper .footer .back .icon .icons .insta svg path {
+    fill: #FFF;
+  }
+  body .wrapper .footer .back .icon .icons .insta svg path:hover {
+    transition: 0.5s;
+    fill: #6028F1;
+  }
+  body .wrapper .footer .back ul {
+    padding: 0px;
+    text-align: center;
+    max-width: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 122px;
+    list-style: none;
+  }
+  body .wrapper .footer .back a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  body .wrapper .footer .back .featur {
+    margin-top: 70px;
+    background: #000;
+    height: 122px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .wrapper .footer .back .featur .btn {
+    text-align: center;
+    margin-top: 50px;
+    width: 163px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  body .wrapper .footer .back .featur .btn:hover {
+    border-bottom: 2px solid whitesmoke;
+    transition-duration: 0.5s;
+  }
+  body .wrapper .footer .back .featur .res {
+    margin: 0px;
+    color: #FFF;
+    text-align: right;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+@media (max-width: 500px) {
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  body .wrapper {
+    margin-top: 30px;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1500px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+  }
+  body .wrapper .card {
+    max-width: 1500px;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  body .wrapper .card .emmet10 .emmet1 {
+    max-width: 750px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .wrapper .card .emmet10 .emmet1 .stop1 {
+    padding: 0px 30px;
+    max-width: 650px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(/img/tog.png);
+  }
+  body .wrapper .card .emmet10 .emmet1 .stop1 .exploler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 390px;
+    width: 90%;
+    height: 150px;
+  }
+  body .wrapper .card .emmet10 .emmet1 .stop1 .exploler .aktivatsiya .april {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: 100%;
+    height: 17px;
+  }
+  body .wrapper .card .emmet10 .emmet1 .stop1 .exploler .aktivatsiya .control {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+  }
+  body .wrapper .card .emmet10 .emmet1 .stop1 .exploler .aktivatsiya .john {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .card .emmet10 .emmet1 .stop1 .exploler .read {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    max-width: 390px;
+    width: 100%;
+    height: 16px;
+  }
+  body .wrapper .card .emmet10 .emmet1 .stop1 .exploler .read .story {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .card .emmet10 .emmet1 .stop1:hover {
+    transition-duration: 2s;
+    transform: translateY(-30px);
+  }
+  body .wrapper .card .emmet10 .emmet1 .stop2 {
+    padding: 0px 30px;
+    max-width: 650px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(/img/sunset.png);
+  }
+  body .wrapper .card .emmet10 .emmet1 .stop2 .exploler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 390px;
+    width: 90%;
+    height: 150px;
+  }
+  body .wrapper .card .emmet10 .emmet1 .stop2 .exploler .aktivatsiya .april {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: 100%;
+    height: 17px;
+  }
+  body .wrapper .card .emmet10 .emmet1 .stop2 .exploler .aktivatsiya .control {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+  }
+  body .wrapper .card .emmet10 .emmet1 .stop2 .exploler .aktivatsiya .john {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .card .emmet10 .emmet1 .stop2 .exploler .read {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    max-width: 390px;
+    width: 100%;
+    height: 16px;
+  }
+  body .wrapper .card .emmet10 .emmet1 .stop2 .exploler .read .story {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .card .emmet10 .emmet1 .stop2:hover {
+    transition-duration: 2s;
+    transform: translateY(-30px);
+  }
+  body .wrapper .card .emmet10 .emmet2 {
+    max-width: 750px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .wrapper .card .emmet10 .emmet2 .stop3 {
+    padding: 0px 30px;
+    max-width: 650px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(/img/voyage.png);
+  }
+  body .wrapper .card .emmet10 .emmet2 .stop3 .exploler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 390px;
+    width: 90%;
+    height: 150px;
+  }
+  body .wrapper .card .emmet10 .emmet2 .stop3 .exploler .aktivatsiya .april {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: 100%;
+    height: 17px;
+  }
+  body .wrapper .card .emmet10 .emmet2 .stop3 .exploler .aktivatsiya .control {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+  }
+  body .wrapper .card .emmet10 .emmet2 .stop3 .exploler .aktivatsiya .john {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .card .emmet10 .emmet2 .stop3 .exploler .read {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    max-width: 390px;
+    width: 100%;
+    height: 16px;
+  }
+  body .wrapper .card .emmet10 .emmet2 .stop3 .exploler .read .story {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .card .emmet10 .emmet2 .stop3:hover {
+    transition-duration: 2s;
+    transform: translateY(-30px);
+  }
+  body .wrapper .card .emmet10 .emmet2 .stop4 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 650px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/brooke.png);
+  }
+  body .wrapper .card .emmet10 .emmet2 .stop4 .exploler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 390px;
+    width: 90%;
+    height: 150px;
+  }
+  body .wrapper .card .emmet10 .emmet2 .stop4 .exploler .aktivatsiya .april {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: 100%;
+    height: 17px;
+  }
+  body .wrapper .card .emmet10 .emmet2 .stop4 .exploler .aktivatsiya .control {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+  }
+  body .wrapper .card .emmet10 .emmet2 .stop4 .exploler .aktivatsiya .john {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .card .emmet10 .emmet2 .stop4 .exploler .read {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    max-width: 390px;
+    width: 100%;
+    height: 16px;
+  }
+  body .wrapper .card .emmet10 .emmet2 .stop4 .exploler .read .story {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .card .emmet10 .emmet2 .stop4:hover {
+    transition-duration: 2s;
+    transform: translateY(-30px);
+  }
+  body .wrapper .card .emmet20 .emmet1 {
+    max-width: 750px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .wrapper .card .emmet20 .emmet1 .stop1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 650px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/world.png);
+  }
+  body .wrapper .card .emmet20 .emmet1 .stop1 .exploler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 390px;
+    width: 90%;
+    height: 150px;
+  }
+  body .wrapper .card .emmet20 .emmet1 .stop1 .exploler .aktivatsiya .april {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: 100%;
+    height: 17px;
+  }
+  body .wrapper .card .emmet20 .emmet1 .stop1 .exploler .aktivatsiya .control {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+  }
+  body .wrapper .card .emmet20 .emmet1 .stop1 .exploler .aktivatsiya .john {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .card .emmet20 .emmet1 .stop1 .exploler .read {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    max-width: 390px;
+    width: 100%;
+    height: 16px;
+  }
+  body .wrapper .card .emmet20 .emmet1 .stop1 .exploler .read .story {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .card .emmet20 .emmet1 .stop1:hover {
+    transition-duration: 2s;
+    transform: translateY(-30px);
+  }
+  body .wrapper .card .emmet20 .emmet1 .stop2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 650px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/corners.png);
+  }
+  body .wrapper .card .emmet20 .emmet1 .stop2 .exploler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 390px;
+    width: 90%;
+    height: 150px;
+  }
+  body .wrapper .card .emmet20 .emmet1 .stop2 .exploler .aktivatsiya .april {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: 100%;
+    height: 17px;
+  }
+  body .wrapper .card .emmet20 .emmet1 .stop2 .exploler .aktivatsiya .control {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+  }
+  body .wrapper .card .emmet20 .emmet1 .stop2 .exploler .aktivatsiya .john {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .card .emmet20 .emmet1 .stop2 .exploler .read {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    max-width: 390px;
+    width: 100%;
+    height: 16px;
+  }
+  body .wrapper .card .emmet20 .emmet1 .stop2 .exploler .read .story {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .card .emmet20 .emmet1 .stop2:hover {
+    transition-duration: 2s;
+    transform: translateY(-30px);
+  }
+  body .wrapper .card .emmet20 .emmet2 {
+    max-width: 750px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .wrapper .card .emmet20 .emmet2 .stop3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 650px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/king.png);
+  }
+  body .wrapper .card .emmet20 .emmet2 .stop3 .exploler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 390px;
+    width: 90%;
+    height: 150px;
+  }
+  body .wrapper .card .emmet20 .emmet2 .stop3 .exploler .aktivatsiya .april {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: 100%;
+    height: 17px;
+  }
+  body .wrapper .card .emmet20 .emmet2 .stop3 .exploler .aktivatsiya .control {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+  }
+  body .wrapper .card .emmet20 .emmet2 .stop3 .exploler .aktivatsiya .john {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .card .emmet20 .emmet2 .stop3 .exploler .read {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    max-width: 390px;
+    width: 100%;
+    height: 16px;
+  }
+  body .wrapper .card .emmet20 .emmet2 .stop3 .exploler .read .story {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .card .emmet20 .emmet2 .stop3:hover {
+    transition-duration: 2s;
+    transform: translateY(-30px);
+  }
+  body .wrapper .card .emmet20 .emmet2 .stop4 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 650px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/trip.png);
+  }
+  body .wrapper .card .emmet20 .emmet2 .stop4 .exploler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 390px;
+    width: 90%;
+    height: 150px;
+  }
+  body .wrapper .card .emmet20 .emmet2 .stop4 .exploler .aktivatsiya .april {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: 100%;
+    height: 17px;
+  }
+  body .wrapper .card .emmet20 .emmet2 .stop4 .exploler .aktivatsiya .control {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+  }
+  body .wrapper .card .emmet20 .emmet2 .stop4 .exploler .aktivatsiya .john {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .card .emmet20 .emmet2 .stop4 .exploler .read {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    max-width: 390px;
+    width: 100%;
+    height: 16px;
+  }
+  body .wrapper .card .emmet20 .emmet2 .stop4 .exploler .read .story {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .card .emmet20 .emmet2 .stop4:hover {
+    transition-duration: 2s;
+    transform: translateY(-30px);
+  }
+  body .wrapper .card .emmet30 .emmet1 {
+    max-width: 750px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .wrapper .card .emmet30 .emmet1 .stop1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 650px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/rage.png);
+  }
+  body .wrapper .card .emmet30 .emmet1 .stop1 .exploler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 390px;
+    width: 90%;
+    height: 150px;
+  }
+  body .wrapper .card .emmet30 .emmet1 .stop1 .exploler .aktivatsiya .april {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: 100%;
+    height: 17px;
+  }
+  body .wrapper .card .emmet30 .emmet1 .stop1 .exploler .aktivatsiya .control {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+  }
+  body .wrapper .card .emmet30 .emmet1 .stop1 .exploler .aktivatsiya .john {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .card .emmet30 .emmet1 .stop1 .exploler .read {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    max-width: 390px;
+    width: 100%;
+    height: 16px;
+  }
+  body .wrapper .card .emmet30 .emmet1 .stop1 .exploler .read .story {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .card .emmet30 .emmet1 .stop1:hover {
+    transition-duration: 2s;
+    transform: translateY(-30px);
+  }
+  body .wrapper .card .emmet30 .emmet1 .stop2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 650px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/running.png);
+  }
+  body .wrapper .card .emmet30 .emmet1 .stop2 .exploler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 390px;
+    width: 90%;
+    height: 150px;
+  }
+  body .wrapper .card .emmet30 .emmet1 .stop2 .exploler .aktivatsiya .april {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: 100%;
+    height: 17px;
+  }
+  body .wrapper .card .emmet30 .emmet1 .stop2 .exploler .aktivatsiya .control {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+  }
+  body .wrapper .card .emmet30 .emmet1 .stop2 .exploler .aktivatsiya .john {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .card .emmet30 .emmet1 .stop2 .exploler .read {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    max-width: 390px;
+    width: 100%;
+    height: 16px;
+  }
+  body .wrapper .card .emmet30 .emmet1 .stop2 .exploler .read .story {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .card .emmet30 .emmet1 .stop2:hover {
+    transition-duration: 2s;
+    transform: translateY(-30px);
+  }
+  body .wrapper .card .emmet30 .emmet2 {
+    max-width: 750px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .wrapper .card .emmet30 .emmet2 .stop3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 650px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/behind.png);
+  }
+  body .wrapper .card .emmet30 .emmet2 .stop3 .exploler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 390px;
+    width: 90%;
+    height: 150px;
+  }
+  body .wrapper .card .emmet30 .emmet2 .stop3 .exploler .aktivatsiya .april {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: 100%;
+    height: 17px;
+  }
+  body .wrapper .card .emmet30 .emmet2 .stop3 .exploler .aktivatsiya .control {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+  }
+  body .wrapper .card .emmet30 .emmet2 .stop3 .exploler .aktivatsiya .john {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .card .emmet30 .emmet2 .stop3 .exploler .read {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    max-width: 390px;
+    width: 100%;
+    height: 16px;
+  }
+  body .wrapper .card .emmet30 .emmet2 .stop3 .exploler .read .story {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .card .emmet30 .emmet2 .stop3:hover {
+    transition-duration: 2s;
+    transform: translateY(-30px);
+  }
+  body .wrapper .card .emmet30 .emmet2 .stop4 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 650px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/calm.png);
+  }
+  body .wrapper .card .emmet30 .emmet2 .stop4 .exploler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 390px;
+    width: 90%;
+    height: 150px;
+  }
+  body .wrapper .card .emmet30 .emmet2 .stop4 .exploler .aktivatsiya .april {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: 100%;
+    height: 17px;
+  }
+  body .wrapper .card .emmet30 .emmet2 .stop4 .exploler .aktivatsiya .control {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+  }
+  body .wrapper .card .emmet30 .emmet2 .stop4 .exploler .aktivatsiya .john {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .card .emmet30 .emmet2 .stop4 .exploler .read {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    max-width: 390px;
+    width: 100%;
+    height: 16px;
+  }
+  body .wrapper .card .emmet30 .emmet2 .stop4 .exploler .read .story {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .card .emmet30 .emmet2 .stop4:hover {
+    transition-duration: 2s;
+    transform: translateY(-30px);
+  }
+  body .wrapper .card .emmet40 .emmet1 {
+    max-width: 750px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .wrapper .card .emmet40 .emmet1 .stop1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 650px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/milky.png);
+  }
+  body .wrapper .card .emmet40 .emmet1 .stop1 .exploler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 390px;
+    width: 90%;
+    height: 150px;
+  }
+  body .wrapper .card .emmet40 .emmet1 .stop1 .exploler .aktivatsiya .april {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: 100%;
+    height: 17px;
+  }
+  body .wrapper .card .emmet40 .emmet1 .stop1 .exploler .aktivatsiya .control {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+  }
+  body .wrapper .card .emmet40 .emmet1 .stop1 .exploler .aktivatsiya .john {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .card .emmet40 .emmet1 .stop1 .exploler .read {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    max-width: 390px;
+    width: 100%;
+    height: 16px;
+  }
+  body .wrapper .card .emmet40 .emmet1 .stop1 .exploler .read .story {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .card .emmet40 .emmet1 .stop1:hover {
+    transition-duration: 2s;
+    transform: translateY(-30px);
+  }
+  body .wrapper .card .emmet40 .emmet1 .stop2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 650px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/nigth.png);
+  }
+  body .wrapper .card .emmet40 .emmet1 .stop2 .exploler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 390px;
+    width: 90%;
+    height: 150px;
+  }
+  body .wrapper .card .emmet40 .emmet1 .stop2 .exploler .aktivatsiya .april {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: 100%;
+    height: 17px;
+  }
+  body .wrapper .card .emmet40 .emmet1 .stop2 .exploler .aktivatsiya .control {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+  }
+  body .wrapper .card .emmet40 .emmet1 .stop2 .exploler .aktivatsiya .john {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .card .emmet40 .emmet1 .stop2 .exploler .read {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    max-width: 390px;
+    width: 100%;
+    height: 16px;
+  }
+  body .wrapper .card .emmet40 .emmet1 .stop2 .exploler .read .story {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .card .emmet40 .emmet1 .stop2:hover {
+    transition-duration: 2s;
+    transform: translateY(-30px);
+  }
+  body .wrapper .card .emmet40 .emmet2 {
+    max-width: 750px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .wrapper .card .emmet40 .emmet2 .stop3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 650px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/beauty.png);
+  }
+  body .wrapper .card .emmet40 .emmet2 .stop3 .exploler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 390px;
+    width: 90%;
+    height: 150px;
+  }
+  body .wrapper .card .emmet40 .emmet2 .stop3 .exploler .aktivatsiya .april {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: 100%;
+    height: 17px;
+  }
+  body .wrapper .card .emmet40 .emmet2 .stop3 .exploler .aktivatsiya .control {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+  }
+  body .wrapper .card .emmet40 .emmet2 .stop3 .exploler .aktivatsiya .john {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .card .emmet40 .emmet2 .stop3 .exploler .read {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    max-width: 390px;
+    width: 100%;
+    height: 16px;
+  }
+  body .wrapper .card .emmet40 .emmet2 .stop3 .exploler .read .story {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .card .emmet40 .emmet2 .stop3:hover {
+    transition-duration: 2s;
+    transform: translateY(-30px);
+  }
+  body .wrapper .card .emmet40 .emmet2 .stop4 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 650px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/land.png);
+  }
+  body .wrapper .card .emmet40 .emmet2 .stop4 .exploler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 390px;
+    width: 90%;
+    height: 150px;
+  }
+  body .wrapper .card .emmet40 .emmet2 .stop4 .exploler .aktivatsiya .april {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: 100%;
+    height: 17px;
+  }
+  body .wrapper .card .emmet40 .emmet2 .stop4 .exploler .aktivatsiya .control {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+  }
+  body .wrapper .card .emmet40 .emmet2 .stop4 .exploler .aktivatsiya .john {
+    margin: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .card .emmet40 .emmet2 .stop4 .exploler .read {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    max-width: 390px;
+    width: 100%;
+    height: 16px;
+  }
+  body .wrapper .card .emmet40 .emmet2 .stop4 .exploler .read .story {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .card .emmet40 .emmet2 .stop4:hover {
+    transition-duration: 2s;
+    transform: translateY(-30px);
+  }
+  body .wrapper .dalete {
+    display: none;
+  }
+  body .wrapper .text2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    max-width: 1500px;
+    height: max-content;
+    width: 100%;
+    background-color: white;
+  }
+  body .wrapper .text2 .text1 {
+    padding-top: 41px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 200px;
+    align-items: center;
+    max-width: 610px;
+    width: 90%;
+    height: max-content;
+    background-color: black;
+  }
+  body .wrapper .text2 .text1 .create {
+    margin-top: 41px;
+    max-width: 387px;
+    width: 100%;
+    height: 304px;
+    background-color: black;
+  }
+  body .wrapper .text2 .text1 .create .debug {
+    margin: 0px;
+    max-width: 250px;
+    width: 100%;
+    height: 16px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .wrapper .text2 .text1 .create .file {
+    margin: 0px;
+    margin-top: 24px;
+    max-width: 350px;
+    width: 100%;
+    height: 144px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 120% */
+    letter-spacing: 4.167px;
+    text-transform: uppercase;
+  }
+  body .wrapper .text2 .text1 .create .edit {
+    margin: 0px;
+    margin-top: 16px;
+    display: inline-flex;
+    padding-right: 1px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 9px;
+    max-width: 226px;
+    width: 100%;
+    height: 17px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .wrapper .text2 .text1 .create .selection {
+    margin: 0px;
+    margin-top: 24px;
+    max-width: 387px;
+    width: 100%;
+    height: 125px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+  }
+  body .wrapper .text2 .text1 .create a {
+    margin: 0px;
+    margin-top: 24px;
+    max-width: 184px;
+    width: 100%;
+    height: 16px;
+    color: #FFF;
+    text-align: right;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    list-style: none;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    gap: 18px;
+  }
+  body .wrapper .text2 .text1 .create a:hover {
+    width: 175px;
+    transition-duration: 1s;
+    border-bottom: 2px solid white;
+    color: white;
+    display: flex;
+    gap: 18px;
+  }
+  body .wrapper .text2 .iconka {
+    background-repeat: no-repeat;
+    background-position: -500px center;
+    background-size: cover;
+    max-width: 730px;
+    height: 500px;
+    flex-shrink: 0;
+    background-image: url(/img/full.png);
+  }
+}/*# sourceMappingURL=main.css.map */

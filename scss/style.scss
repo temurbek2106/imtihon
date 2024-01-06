@@ -1,0 +1,2218 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    .wrapper{
+        margin-top: 30px;
+        display: flex;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        align-items: center;
+        max-width: 1500px;
+        width: 100%;
+        height: 100%;
+        padding: 0px 20px;
+        background-color: white;
+        .wrapper_content{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1110px;
+            width: 90%;
+            height: 72px;
+            background-color: white;
+            .there{
+                ul{
+                    display: inline-flex;
+                    padding-right: 2px;
+                    justify-content: center;
+                    align-items: flex-start;
+                    gap: 37px;
+                    background: white;
+                    list-style: none;
+                    color: #000;
+                    font-family: DM Sans;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 2px;
+                    // gap: 37px;
+                    a{
+                        text-decoration: none;
+                    }
+                    a:hover{
+                        transition-duration: 1s;
+                        color: #DFDFDF;
+                    }
+                }
+            }
+            .share{
+                display: none;
+            }
+            button{
+                border: none;
+                width: 158px;
+                height: 40px;
+                flex-shrink: 0;
+                background: #000;
+                color: #FFF;
+                font-family: DM Sans;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 2px;
+            }
+            button:hover{
+                transition-duration: 1s;
+                color: black;
+                background: #DFDFDF;
+            }
+        }
+        .text{
+            display: flex;
+            justify-content: center;
+            max-width: 1500px;
+            height: 650px;
+            width: 100%;
+            background-color: white;
+            .text1{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 0px 30px;
+                max-width: 610px;
+                width: 100%;
+                height: 650px;
+                background-color:  black;
+                .create{
+                    width: 387px;
+                    // width: 100%;
+                    height: 304px;
+                    background-color: black;
+                    .run{
+                        margin: 0;
+                        max-width: 387px;
+                        width: 100%;
+                        color: #FFF;
+                        font-family: DM Sans;
+                        font-size: 40px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 48px; /* 120% */
+                        letter-spacing: 4.167px;
+                        text-transform: uppercase;
+                    }
+                    .run1{
+                        margin-top: 21px;
+                        max-width: 387px;
+                        width: 100%;
+                        color: #FFF;
+                        font-family: DM Sans;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 25px; /* 166.667% */
+                    }
+                    a{
+                        color: #FFF;
+                        font-family: DM Sans;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: 2px;
+                        display: flex;
+                        list-style: none;
+                        text-decoration: none;
+                        display: inline-flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 18px;
+                        margin-top: 48px;
+                    }
+                    a:hover{
+                        width: 175px;
+                        transition-duration: 1s;
+                        border-bottom: 2px solid white;
+                        color: white;
+                        display: flex;
+                        gap: 18px;
+                    }
+                }
+            }
+            .iconka{
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                max-width: 830px;
+                width: 100%;
+                height: 650px;
+                background-image: url(/img/bolakay.png);
+            }
+        }
+        .stories{
+            display: flex;
+            // justify-content: center;
+            justify-content: space-between;
+            max-width: 1500px;
+            width: 100%;
+            height: 600px;
+            background-color: white;
+            .iconka1{
+                max-width: 830px;
+                width: 100%;
+                height: 600px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-image: url(/img/noutbook.png);
+            }
+            .spaces{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 0px 30px;
+                max-width: 610px;
+                width: 100%;
+                height: 600px;
+                background-color: white;
+                .watching{
+                    width: 387px;
+                    // width: 100%;
+                    height: 329px;
+                    background-color: white;
+                    .go{
+                        margin: 0;
+                        max-width: 387px;
+                        width: 100%;
+                        color: #000;
+                        font-family: DM Sans;
+                        font-size: 40px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 48px; /* 120% */
+                        letter-spacing: 4.167px;
+                        text-transform: uppercase;
+                    }
+                    .go1{
+                        max-width: 387px;
+                        width: 100%;
+                        color: #000;
+                        font-family: DM Sans;
+                        margin-top: 21px;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 25px; /* 166.667% */   
+                    }
+                    a{
+                        color: #000;
+                        font-family: DM Sans;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: 2px;
+                        display: flex;
+                        list-style: none;
+                        text-decoration: none;
+                        display: inline-flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-top: 48px;
+                        gap: 18px;
+                    }
+                    a:hover{
+                        width: 205px;
+                        transition-duration: 1s;
+                        border-bottom: 2px solid black;
+                        color: black;
+                        display: flex;
+                        gap: 18px;
+                    }
+                }
+
+        }
+        }
+        .everyone{   
+            display: flex;
+            justify-content: center;
+            max-width: 1500px;
+            height: 600px;
+            width: 100%;
+            background-color: white;
+            .houston{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 0px 30px;
+                max-width: 610px;
+                width: 100%;
+                height: 600px;
+                background-color:  white;
+                .aktiv{
+                    width: 387px;
+                    // width: 100%;
+                    height: 281px;
+                    background-color: white;
+                    .razdel{
+                        margin: 0;
+                        max-width: 387px;
+                        width: 100%;
+                        color: #000;
+                        font-family: DM Sans;
+                        font-size: 40px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 48px; /* 120% */
+                        letter-spacing: 4.167px;
+                        text-transform: uppercase;
+                    }
+                    .razdel1{
+                        max-width: 387px;
+                        width: 100%;
+                        color: #000;
+                        font-family: DM Sans;
+                        margin-top: 21px;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 25px; /* 166.667% */
+                    }
+                    a{
+                        color: #000;
+                        font-family: DM Sans;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: 2px;
+                        display: flex;
+                        list-style: none;
+                        text-decoration: none;
+                        display: inline-flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-top: 48px;
+                        gap: 18px;
+                    }
+                    a:hover{
+                        width: 210px;
+                        transition-duration: 1s;
+                        border-bottom: 2px solid black;
+                        color: black;
+                        display: flex;
+                        gap: 18px;
+                    }
+                }
+            }
+            .iconka{
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                max-width: 830px;
+                width: 100%;
+                height: 600px;
+                background-image: url(/img/rasmchi.png);
+            }
+        }
+        .emmet{
+            display: flex;
+            max-width: 1500px;
+            width: 100%;
+            height: 500px;
+            background-color: white;
+            .emmet1{
+                display: flex;
+                max-width: 1500px;
+                width: 100%;
+                height: 500px;
+                .stop1{
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-end;
+                    max-width: 370px;
+                    width: 100%;
+                    height: 500px;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-image: url(/img/tog.png);
+                    .exploler{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        max-width: 280px;
+                        width: 90%;
+                        height: 120px;
+                        .aktivatsiya{
+                            .control{
+                                margin: 0;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .john{
+                                margin: 0;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                        }
+                        .read{
+                            display: flex;
+                            justify-content: space-between;
+                            border-top: 1px solid white;
+                            max-width: 280px;
+                            // margin-top: 50px;
+                            width: 100%;
+                            height: 16px;
+                            .story{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                }
+                .stop1:hover{
+                    transition-duration: 2s;
+                    transform: translateY(-30px);   
+                }
+                .stop2{
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-end;
+                    max-width: 370px;
+                    width: 100%;
+                    height: 500px;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-image: url(/img/sunset.png);
+                    .exploler{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        max-width: 280px;
+                        width: 90%;
+                        height: 120px;
+                        .aktivatsiya{
+                            .control{
+                                margin: 0;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .john{
+                                margin: 0;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                        }
+                        .read{
+                            display: flex;
+                            justify-content: space-between;
+                            border-top: 1px solid white;
+                            max-width: 280px;
+                            // margin-top: 50px;
+                            width: 100%;
+                            height: 16px;
+                            .story{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                }
+                .stop2:hover{
+                    transition-duration: 2s;
+                    transform: translateY(-30px);
+                }
+            }
+            .emmet2{
+                display: flex;
+                max-width: 1500px;
+                width: 100%;
+                height: 500px;
+                .stop3{
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-end;
+                    max-width: 370px;
+                    width: 100%;
+                    height: 500px;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-image: url(/img/voyage.png);
+                    .exploler{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        max-width: 280px;
+                        width: 90%;
+                        height: 120px;
+                        .aktivatsiya{
+                            .control{
+                                margin: 0;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .john{
+                                margin: 0;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                        }
+                        .read{
+                            display: flex;
+                            justify-content: space-between;
+                            border-top: 1px solid white;
+                            max-width: 280px;
+                            // margin-top: 50px;
+                            width: 100%;
+                            height: 16px;
+                            .story{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                }
+                .stop3:hover{
+                    transition-duration: 2s;
+                    transform: translateY(-30px);
+                }
+                .stop4{
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-end;
+                    max-width: 370px;
+                    width: 100%;
+                    height: 500px;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-image: url(/img/brooke.png);
+                    .exploler{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        max-width: 280px;
+                        width: 90%;
+                        height: 120px;
+                        .aktivatsiya{
+                            .control{
+                                margin: 0;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .john{
+                                margin: 0;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                        }
+                        .read{
+                            display: flex;
+                            justify-content: space-between;
+                            border-top: 1px solid white;
+                            max-width: 280px;
+                            // margin-top: 50px;
+                            width: 100%;
+                            height: 16px;
+                            .story{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                }
+                .stop4:hover{
+                    transition-duration: 2s;
+                    transform: translateY(-30px);
+                }
+            }
+        }
+        .rel{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1110px;
+            width: 100%;
+            height: 236px;
+            margin-top: 120px;
+            background-color: white;
+            .shart1{
+                text-align: center;
+                max-width: 350px;
+                width: 100%;
+                height: 236px;
+                background-color: white;
+                .win1{
+                    color: #000;
+                    text-align: center;
+                    font-family: DM Sans;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 25px; /* 138.889% */
+                    margin-top: 48px;
+                }
+                .win2{
+                    color: #000;
+                    text-align: center;
+                    font-family: DM Sans;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 25px; /* 166.667% */
+                }
+            }
+            .shart2{
+                text-align: center;
+                max-width: 350px;
+                width: 100%;
+                height: 236px;
+                background-color: white;
+                .win1{
+                    color: #000;
+                    text-align: center;
+                    font-family: DM Sans;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 25px; /* 138.889% */
+                    margin-top: 80px;
+                }
+                .win2{
+                    color: #000;
+                    text-align: center;
+                    font-family: DM Sans;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 25px; /* 166.667% */
+                }
+            }
+            .shart3{
+                text-align: center;
+                max-width: 350px;
+                width: 100%;
+                height: 236px;
+                background-color: white;
+                .win1{
+                    color: #000;
+                    text-align: center;
+                    font-family: DM Sans;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 25px; /* 138.889% */
+                    margin-top: 48px;
+                }
+                .win2{
+                    color: #000;
+                    text-align: center;
+                    font-family: DM Sans;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 25px; /* 166.667% */
+                }
+            }
+        }
+        .footer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 120px;
+            max-width: 1500px;
+            width: 100%;
+            height: 250px;
+            background: black;
+            .back{
+                display: flex;
+                justify-content: space-between;
+                max-width: 1110px;
+                width: 100%;
+                .icon{
+                    height: 122px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    img{
+                        width: 170px;
+                        height: 16px;
+                    }
+                    ul{
+                        display: none;
+                    }
+                    .icons{
+                        width: 154px;
+                        height: 20px;
+                        display: flex;
+                        justify-content: space-between;
+                        .facebook{
+                            svg{
+                                path{
+                                    fill: #FFF;
+                                }
+                                path:hover{
+                                    transition: 0.5s;
+                                    fill: #6028F1 ;
+                                }
+                            }
+                        }
+                        .youtube{
+                            svg{
+                                path{
+                                    fill: #FFF;
+                                }
+                                path:hover{
+                                    transition: 0.5s;
+                                    fill:  #FF5A5A;
+                                }
+                            }
+                        }
+                        .twitter{
+                            svg{
+                                path{
+                                    fill: #FFF;
+                                }
+                                path:hover{
+                                    transition: 0.5s;
+                                    fill: #27718A;
+                                }
+                            }
+                        }
+                        .p{
+                            svg{
+                                path{
+                                    fill: #FFF;
+                                }
+                                path:hover{
+                                    transition: 0.5s;
+                                    fill: #DE3838;
+                                }
+                            }
+                        }
+                        .insta{
+                            svg{
+                                path{
+                                    fill: #FFF;
+                                }
+                                path:hover{
+                                    transition: 0.5s;
+                                    fill: #6028F1;
+                                }
+                            }
+                        }
+                    }
+                }
+                ul{
+                    max-width: 500px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    height: 122px;
+                    list-style: none;
+                }
+                a:hover{
+                    transition: 0.5s;
+                    color: gray;
+                }
+                a{
+                    text-decoration: none;
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                }
+                .featur{
+                    background: #000;
+                    height: 122px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    .btn{
+                        margin-top: 0px;
+                        width: 163px;
+                        color: #FFF;
+                        font-family: DM Sans;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: 2px;
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                    }
+                    .btn:hover{
+                        border-bottom: 2px solid whitesmoke;
+                        transition-duration: 0.5s;
+                    }  
+                    .res{
+                        width: 244px;
+                        margin: 0px;
+                        color: #FFF;
+                        text-align: right;
+                        font-family: DM Sans;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:1000px) {
+    body{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        .wrapper{
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            align-items: center;
+            max-width: 1500px;
+            width: 100%;
+            height: 100%;
+            padding: 0px 20px;
+            background-color: white;
+            .emmet{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-top: 250px;
+                max-width: 1500px;
+                width: 100%;
+                height: 500px;
+                .emmet1{
+                    display: flex;
+                    justify-content: center;
+                    max-width: 1500px;
+                    width: 100%;
+                    height: 500px;
+                    .stop1{
+                        display: flex;
+                        justify-content: center;
+                        align-items: flex-end;
+                        max-width: 500px;
+                        width: 100%;
+                        height: 500px;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-image: url(/img/tog.png);
+                        .exploler{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-evenly;
+                            max-width: 280px;
+                            width: 90%;
+                            height: 120px;
+                            .aktivatsiya{
+                                .control{
+                                    margin: 0;
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 18px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 25px; /* 138.889% */
+                                }
+                                .john{
+                                    margin: 0;
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 13px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;
+                                }
+                            }
+                            .read{
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 1px solid white;
+                                max-width: 280px;
+                                // margin-top: 50px;
+                                width: 100%;
+                                height: 16px;
+                                .story{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                    }
+                    .stop1:hover{
+                        transition-duration: 2s;
+                        transform: translateY(-30px);
+                    }
+                    .stop2{
+                        display: flex;
+                        justify-content: center;
+                        align-items: flex-end;
+                        max-width: 500px;
+                        width: 100%;
+                        height: 500px;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-image: url(/img/sunset.png);
+                        .exploler{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-evenly;
+                            max-width: 280px;
+                            width: 90%;
+                            height: 120px;
+                            .aktivatsiya{
+                                .control{
+                                    margin: 0;
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 18px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 25px; /* 138.889% */
+                                }
+                                .john{
+                                    margin: 0;
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 13px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;
+                                }
+                            }
+                            .read{
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 1px solid white;
+                                max-width: 280px;
+                                // margin-top: 50px;
+                                width: 100%;
+                                height: 16px;
+                                .story{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                    }
+                    .stop2:hover{
+                        transition-duration: 2s;
+                        transform: translateY(-30px);
+                    }
+                }
+                .emmet2{
+                    display: flex;
+                    justify-content: center;
+                    max-width: 1500px;
+                    width: 100%;
+                    height: 500px;
+                    .stop3{
+                        display: flex;
+                        justify-content: center;
+                        align-items: flex-end;
+                        max-width: 500px;
+                        width: 100%;
+                        height: 500px;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-image: url(/img/voyage.png);
+                        .exploler{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-evenly;
+                            max-width: 280px;
+                            width: 90%;
+                            height: 120px;
+                            .aktivatsiya{
+                                .control{
+                                    margin: 0;
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 18px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 25px; /* 138.889% */
+                                }
+                                .john{
+                                    margin: 0;
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 13px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;
+                                }
+                            }
+                            .read{
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 1px solid white;
+                                max-width: 280px;
+                                // margin-top: 50px;
+                                width: 100%;
+                                height: 16px;
+                                .story{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                    }
+                    .stop3:hover{
+                        transition-duration: 2s;
+                        transform: translateY(-30px);
+                    }
+                    .stop4{
+                        display: flex;
+                        justify-content: center;
+                        align-items: flex-end;
+                        max-width: 500px;
+                        width: 100%;
+                        height: 500px;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-image: url(/img/brooke.png);
+                        .exploler{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-evenly;
+                            max-width: 280px;
+                            width: 90%;
+                            height: 120px;
+                            .aktivatsiya{
+                                .control{
+                                    margin: 0;
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 18px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 25px; /* 138.889% */
+                                }
+                                .john{
+                                    margin: 0;
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 13px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;
+                                }
+                            }
+                            .read{
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 1px solid white;
+                                max-width: 280px;
+                                // margin-top: 50px;
+                                width: 100%;
+                                height: 16px;
+                                .story{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                    }
+                    .stop4:hover{
+                        transition-duration: 2s;
+                        transform: translateY(-30px);
+                    }
+                }
+            }
+            .rel{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: column;
+                max-width: 1110px;
+                width: 100%;
+                height: max-content;
+                margin-top: 400px;
+                background-color: white;
+                .shart1{
+                    text-align: center;
+                    max-width: 350px;
+                    width: 100%;
+                    height: 236px;
+                    background-color: white;
+                    .win1{
+                        color: #000;
+                        text-align: center;
+                        font-family: DM Sans;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 25px; /* 138.889% */
+                        margin-top: 48px;
+                    }
+                    .win2{
+                        color: #000;
+                        text-align: center;
+                        font-family: DM Sans;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 25px; /* 166.667% */
+                    }
+                }
+                .shart2{
+                    text-align: center;
+                    max-width: 350px;
+                    width: 100%;
+                    height: 236px;
+                    margin-top: 80px;
+                    background-color: white;
+                    .win1{
+                        color: #000;
+                        text-align: center;
+                        font-family: DM Sans;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 25px; /* 138.889% */
+                        margin-top: 48px;
+                    }
+                    .win2{
+                        color: #000;
+                        text-align: center;
+                        font-family: DM Sans;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 25px; /* 166.667% */
+                    }
+                }
+                .shart3{
+                    text-align: center;
+                    max-width: 350px;
+                    width: 100%;
+                    height: 236px;
+                    margin-top: 80px;
+                    background-color: white;
+                    .win1{
+                        color: #000;
+                        text-align: center;
+                        font-family: DM Sans;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 25px; /* 138.889% */
+                        margin-top: 48px;
+                    }
+                    .win2{
+                        color: #000;
+                        text-align: center;
+                        font-family: DM Sans;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 25px; /* 166.667% */
+                    }
+                }
+            }
+            .footer{
+                display: flex;
+                // align-items: center;
+                // justify-content: center;
+                // max-width: 100;
+                margin-top: 120px;
+                max-width: 1500px;
+                width: 100%;
+                height: 250px;
+                background: black;
+                .back{
+                    display: flex;
+                    justify-content: space-between;
+                    max-width: 1110px;
+                    width: 90%;
+                    .icon{
+                        height: 140px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        img{
+                            width: 170px;
+                            height: 16px;
+                        }
+                        ul{
+                            max-width: 500px;
+                            width: 100%;
+                            display: flex;
+                            margin-left: -40px;
+                            flex-direction: row;
+                            margin-top: -30px;
+                            // flex-direction: column;
+                            // justify-content: space-between;
+                            flex-wrap: wrap;
+                            height: max-content;
+                            list-style: none;
+                            gap: 20px;
+                        }
+                        .icons{
+                            width: 154px;
+                            height: 20px;
+                            display: flex;
+                            justify-content: space-between;
+                            .facebook{
+                                svg{
+                                    path{
+                                        fill: #FFF;
+                                    }
+                                    path:hover{
+                                        transition: 0.5s;
+                                        fill: #6028F1 ;
+                                    }
+                                }
+                            }
+                            .youtube{
+                                svg{
+                                    path{
+                                        fill: #FFF;
+                                    }
+                                    path:hover{
+                                        transition: 0.5s;
+                                        fill:  #FF5A5A;
+                                    }
+                                }
+                            }
+                            .twitter{
+                                svg{
+                                    path{
+                                        fill: #FFF;
+                                    }
+                                    path:hover{
+                                        transition: 0.5s;
+                                        fill: #27718A;
+                                    }
+                                }
+                            }
+                            .p{
+                                svg{
+                                    path{
+                                        fill: #FFF;
+                                    }
+                                    path:hover{
+                                        transition: 0.5s;
+                                        fill: #DE3838;
+                                    }
+                                }
+                            }
+                            .insta{
+                                svg{
+                                    path{
+                                        fill: #FFF;
+                                    }
+                                    path:hover{
+                                        transition: 0.5s;
+                                        fill: #6028F1;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    ul{
+                        max-width: 500px;
+                        width: 100%;
+                        display: none;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        height: 122px;
+                        list-style: none;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: #FFF;
+                        font-family: DM Sans;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                    }
+                    .featur{
+                        background: #000;
+                        height: 122px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        .btn{
+                            margin-top: 0px;
+                            width: 163px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            letter-spacing: 2px;
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+                        }
+                        .btn:hover{
+                            border-bottom: 2px solid whitesmoke;
+                            transition-duration: 0.5s;
+                        }  
+                        .res{
+                            margin: 0px;
+                            color: #FFF;
+                            text-align: right;
+                            font-family: DM Sans;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:715px) {
+    body{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        .wrapper{
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            align-items: center;
+            max-width: 1500px;
+            width: 100%;
+            height: 100%;
+            padding: 0px 30px;
+            background-color: white;
+            .wrapper_content{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                max-width: 1110px;
+                width: 90%;
+                height: 72px;
+                background-color: white;
+                .there{
+                    ul{
+                        display: none;
+                        // display: inline-flex;
+                        padding-right: 2px;
+                        justify-content: center;
+                        align-items: flex-start;
+                        gap: 37px;
+                        background: white;
+                        list-style: none;
+                        color: #000;
+                        font-family: DM Sans;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: 2px;
+                        // gap: 37px;
+                        a{
+                            display: none;
+                            text-decoration: none;
+                        }
+                        a:hover{
+                            transition-duration: 1s;
+                            color: #DFDFDF;
+                        }
+                    }
+                }
+                .share{
+                    display: inline;
+                }
+                button{
+                    display: none;
+                    border: none;
+                    width: 158px;
+                    height: 40px;
+                    flex-shrink: 0;
+                    background: #000;
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 2px;
+                }
+                button:hover{
+                    transition-duration: 1s;
+                    color: black;
+                    background: #DFDFDF;
+                }
+            }
+            .rel{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: column;
+                max-width: 1110px;
+                width: 100%;
+                height: max-content;
+                margin-top: 900px;
+                background-color: white;
+                .shart1{
+                    text-align: center;
+                    max-width: 350px;
+                    width: 100%;
+                    height: 236px;
+                    background-color: white;
+                    .win1{
+                        color: #000;
+                        text-align: center;
+                        font-family: DM Sans;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 25px; /* 138.889% */
+                        margin-top: 48px;
+                    }
+                    .win2{
+                        color: #000;
+                        text-align: center;
+                        font-family: DM Sans;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 25px; /* 166.667% */
+                    }
+                }
+                .shart2{
+                    text-align: center;
+                    max-width: 350px;
+                    width: 100%;
+                    height: 236px;
+                    margin-top: 80px;
+                    background-color: white;
+                    .win1{
+                        color: #000;
+                        text-align: center;
+                        font-family: DM Sans;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 25px; /* 138.889% */
+                        margin-top: 48px;
+                    }
+                    .win2{
+                        color: #000;
+                        text-align: center;
+                        font-family: DM Sans;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 25px; /* 166.667% */
+                    }
+                }
+                .shart3{
+                    text-align: center;
+                    max-width: 350px;
+                    width: 100%;
+                    height: 236px;
+                    margin-top: 80px;
+                    background-color: white;
+                    .win1{
+                        color: #000;
+                        text-align: center;
+                        font-family: DM Sans;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 25px; /* 138.889% */
+                        margin-top: 48px;
+                    }
+                    .win2{
+                        color: #000;
+                        text-align: center;
+                        font-family: DM Sans;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 25px; /* 166.667% */
+                    }
+                }
+            }
+            .text{
+                display: flex;
+                justify-content: center;
+                flex-direction: column-reverse;
+                max-width: 1500px;
+                height: max-content;
+                width: 100%;
+                background-color: white;
+                .text1{
+                    padding-top: 41px;
+                    display: flex;
+                    justify-content: center;
+                    margin: 0 auto;  
+                    padding-bottom: 200px;
+                    align-items: center;
+                    max-width: 610px;
+                    width: 90%;
+                    height: max-content;
+                    background-color:  black;
+                    .create{
+                        margin-top: 41px;
+                        max-width: 387px;
+                        width: 100%;
+                        height: 304px;
+                        background-color: black;
+                        .run{
+                            margin: 0;
+                            max-width: 387px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 48px; /* 120% */
+                            letter-spacing: 4.167px;
+                            text-transform: uppercase;
+                        }
+                        .run1{
+                            max-width: 387px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 25px; /* 166.667% */
+                        }
+                        a{
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            letter-spacing: 2px;
+                            display: flex;
+                            list-style: none;
+                            text-decoration: none;
+                            display: inline-flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 18px;
+                        }
+                        a:hover{
+                            width: 175px;
+                            transition-duration: 1s;
+                            border-bottom: 2px solid white;
+                            color: white;
+                            display: flex;
+                            gap: 18px;
+                        }
+                    }
+                }
+                .iconka{
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-size: cover;
+                    max-width: 730px;
+                    height: 500px;
+                    flex-shrink: 0;
+                    background-image: url(/img/bolakay.png);
+                }
+            }
+            .stories{
+                display: flex;
+                justify-content: center;
+                justify-content: space-between;
+                flex-direction: column;
+                max-width: 1500px;
+                width: 100%;
+                height: max-content;
+                background-color: white;
+                .iconka1{
+                    max-width: 830px;
+                    width: 100%;
+                    height: 500px;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-image: url(/img/noutbook.png);
+                }
+                .spaces{
+                    display: flex;
+                    margin: 0 auto;
+                    justify-content: center;
+                    align-items: center;
+                    padding-bottom: 100px;
+                    margin: auto;
+                    max-width: 610px;
+                    width: 90%;
+                    height: max-content;
+                    background-color: wihte;
+                    .watching{
+                        margin-top: 72px;
+                        max-width: 387px;
+                        width: 100%;
+                        height: 329px;
+                        background-color: white;
+                        .go{
+                            margin: 0;
+                            max-width: 387px;
+                            width: 100%;
+                            color: #000;
+                            font-family: DM Sans;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 48px; /* 120% */
+                            letter-spacing: 4.167px;
+                            text-transform: uppercase;
+                        }
+                        .go1{
+                            max-width: 387px;
+                            width: 100%;
+                            color: #000;
+                            font-family: DM Sans;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 25px; /* 166.667% */   
+                        }
+                        a{
+                            color: #000;
+                            font-family: DM Sans;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            letter-spacing: 2px;
+                            display: flex;
+                            list-style: none;
+                            text-decoration: none;
+                            display: inline-flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 18px;
+                        }
+                        a:hover{
+                            width: 205px;
+                            transition-duration: 1s;
+                            border-bottom: 2px solid black;
+                            color: black;
+                            display: flex;
+                            gap: 18px;
+                        }
+                    }
+    
+            }
+            }
+            .everyone{
+                display: flex;
+                justify-content: center;
+                flex-direction: column-reverse;
+                max-width: 1500px;
+                height: max-content;
+                width: 100%;
+                background-color: white;
+                .houston{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding-bottom: 150px;
+                    margin: 0 auto;
+                    max-width: 610px;
+                    width: 90%;
+                    height: max-content;
+                    background-color: white;
+                    .aktiv{
+                        margin-top: 72px;
+                        max-width: 387px;
+                        width: 100%;
+                        height: 281px;
+                        background-color: white;
+                        .razdel{
+                            margin: 0;
+                            max-width: 387px;
+                            width: 100%;
+                            color: #000;
+                            font-family: DM Sans;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 48px; /* 120% */
+                            letter-spacing: 4.167px;
+                            text-transform: uppercase;
+                        }
+                        .razdel1{
+                            max-width: 387px;
+                            width: 100%;
+                            color: #000;
+                            font-family: DM Sans;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 25px; /* 166.667% */
+                        }
+                        a{
+                            color: #000;
+                            font-family: DM Sans;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            letter-spacing: 2px;
+                            display: flex;
+                            list-style: none;
+                            text-decoration: none;
+                            display: inline-flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 18px;
+                        }
+                        a:hover{
+                            width: 210px;
+                            transition-duration: 1s;
+                            border-bottom: 2px solid black;
+                            color: black;
+                            display: flex;
+                            gap: 18px;
+                        }
+                    }
+                }
+                .iconka{
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-size: cover;
+                    max-width: 830px;
+                    width: 100%;
+                    height: 500px;
+                    background-image: url(/img/rasmchi.png);
+                }
+            }
+            .emmet{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-top: 800px;
+                max-width: 1500px;
+                width: 100%;
+                height: 500px;
+                .emmet1{
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin: 0 auto;
+                    max-width: 1500px;
+                    width: 100%;
+                    height: max-content;
+                    .stop1{
+                        display: flex;
+                        justify-content: center;
+                        align-items: flex-end;
+                        max-width: 650px;
+                        width: 100%;
+                        // height: 1500px;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center center;
+                        background-image: url(/img/tog.png);
+                        .exploler{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-evenly;
+                            max-width: 600px;
+                            width: 90%;
+                            height: 120px;
+                            .aktivatsiya{
+                                .control{
+                                    margin: 0;
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 18px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 25px; /* 138.889% */
+                                }
+                                .john{
+                                    margin: 0;
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 13px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;
+                                }
+                            }
+                            .read{
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 1px solid white;
+                                max-width: 600px;
+                                // margin-top: 50px;
+                                width: 100%;
+                                height: 16px;
+                                .story{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                    }
+                    .stop1:hover{
+                        transition-duration: 2s;
+                        transform: translateY(-30px);
+                    }
+                    .stop2{
+                        display: flex;
+                        justify-content: center;
+                        align-items: flex-end;
+                        max-width: 650px;
+                        width: 100%;
+                        // height: 1500px;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center center;
+                        background-image: url(/img/sunset.png);
+                        .exploler{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-evenly;
+                            max-width: 600px;
+                            width: 90%;
+                            height: 120px;
+                            .aktivatsiya{
+                                .control{
+                                    margin: 0;
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 18px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 25px; /* 138.889% */
+                                }
+                                .john{
+                                    margin: 0;
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 13px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;
+                                }
+                            }
+                            .read{
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 1px solid white;
+                                max-width: 600px;
+                                // margin-top: 50px;
+                                width: 100%;
+                                height: 16px;
+                                .story{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                    }
+                    .stop2:hover{
+                        transition-duration: 2s;
+                        transform: translateY(-30px);
+                    }
+                }
+                .emmet2{
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    max-width: 1500px;
+                    width: 100%;
+                    height: max-content;
+                    .stop3{
+                        display: flex;
+                        justify-content: center;
+                        align-items: flex-end;
+                        max-width: 650px;
+                        width: 100%;
+                        // height: 1500px;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center center;
+                        background-image: url(/img/voyage.png);
+                        .exploler{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-evenly;
+                            max-width: 600px;
+                            width: 90%;
+                            height: 120px;
+                            .aktivatsiya{
+                                .control{
+                                    margin: 0;
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 18px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 25px; /* 138.889% */
+                                }
+                                .john{
+                                    margin: 0;
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 13px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;
+                                }
+                            }
+                            .read{
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 1px solid white;
+                                max-width: 600px;
+                                // margin-top: 50px;
+                                width: 100%;
+                                height: 16px;
+                                .story{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                    }
+                    .stop3:hover{
+                        transition-duration: 2s;
+                        transform: translateY(-30px);
+                    }
+                    .stop4{
+                        display: flex;
+                        justify-content: center;
+                        align-items: flex-end;
+                        max-width: 650px;
+                        width: 100%;
+                        // height: 1500px;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center center;
+                        background-image: url(/img/brooke.png);
+                        .exploler{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-evenly;
+                            max-width: 600px;
+                            width: 90%;
+                            height: 120px;
+                            .aktivatsiya{
+                                .control{
+                                    margin: 0;
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 18px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 25px; /* 138.889% */
+                                }
+                                .john{
+                                    margin: 0;
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 13px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;
+                                }
+                            }
+                            .read{
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 1px solid white;
+                                max-width: 600px;
+                                // margin-top: 50px;
+                                width: 100%;
+                                height: 16px;
+                                .story{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                    }
+                    .stop4:hover{
+                        transition-duration: 2s;
+                        transform: translateY(-30px);
+                    }
+                }
+            }
+            .footer{
+                margin-top: 90px;
+                display: flex;
+                flex-direction: column;
+                // align-items: center;
+                // justify-content: center;
+                padding: 30px 64px;
+                // max-width: 100;
+                width: 100%;
+                height: max-content;
+                .back{
+                    height: max-content;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    max-width: 1110px;
+                    width: 100%;
+                    .icon{
+                        height: 122px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 25px;
+                        justify-content: flex-start;
+                        align-items: center;
+                        img{
+                            width: 170px;
+                            height: 16px;
+                        }
+                        ul{
+                            display: none;
+                        }
+                        .icons{
+                            text-align: center;
+                            width: 154px;
+                            height: 20px;
+                            display: flex;
+                            justify-content: space-between;
+                            .facebook{
+                                svg{
+                                    path{
+                                        fill: #FFF;
+                                    }
+                                    path:hover{
+                                        transition: 0.5s;
+                                        fill: #6028F1 ;
+                                    }
+                                }
+                            }
+                            .youtube{
+                                svg{
+                                    path{
+                                        fill: #FFF;
+                                    }
+                                    path:hover{
+                                        transition: 0.5s;
+                                        fill:  #FF5A5A;
+                                    }
+                                }
+                            }
+                            .twitter{
+                                svg{
+                                    path{
+                                        fill: #FFF;
+                                    }
+                                    path:hover{
+                                        transition: 0.5s;
+                                        fill: #27718A;
+                                    }
+                                }
+                            }
+                            .p{
+                                svg{
+                                    path{
+                                        fill: #FFF;
+                                    }
+                                    path:hover{
+                                        transition: 0.5s;
+                                        fill: #DE3838;
+                                    }
+                                }
+                            }
+                            .insta{
+                                svg{
+                                    path{
+                                        fill: #FFF;
+                                    }
+                                    path:hover{
+                                        transition: 0.5s;
+                                        fill: #6028F1;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    ul{
+                        margin-left: -40px;
+                        text-align: center;
+                        max-width: 100px;
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        height: 122px;
+                        list-style: none;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: #FFF;
+                        font-family: DM Sans;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                    }
+                    .featur{
+                        margin-top: 70px;
+                        background: #000;
+                        height: 122px;
+                        display: flex;
+                        flex-direction: column;
+                        // justify-content: flex-end;
+                        align-items: center;
+                        .btn{
+                            text-align: center;
+                            margin-top: 50px;
+                            width: 163px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            letter-spacing: 2px;
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+                        }
+                        .btn:hover{
+                            border-bottom: 2px solid whitesmoke;
+                            transition-duration: 0.5s;
+                        }  
+                        .res{
+                            margin: 0px;
+                            color: #FFF;
+                            text-align: right;
+                            font-family: DM Sans;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
